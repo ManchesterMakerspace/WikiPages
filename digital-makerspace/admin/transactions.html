@@ -1,0 +1,49 @@
+<!--
+title: Transactions
+description: How to manage individual transactions
+published: true
+date: 2023-03-09T23:17:12.670Z
+tags: 
+editor: undefined
+dateCreated: 2019-09-26T12:05:50.422Z
+-->
+
+<h1>Transactions</h1>
+<h6>Transactions can be reviewed as a whole from Billing Central or on a per-member basis in the member’s profile. In the event of any issues with the software, you may <a href="https://www.braintreegateway.com/login">log into Braintree</a> to take similar actions.</h6>
+<p>&nbsp;</p>
+<h2>View and refund any transaction from Billing Central</h2>
+<ol>
+  <li>Login as an admin user and navigate to Billing Central, using the “Billing” option from the upper right hamburger menu</li>
+  <li>Select the “Transactions” tab to view the transactions table.</li>
+  <li>Transactions are filterable by date and by member as indicated in the image below</li>
+  <li>To refund a transaction, select the row, click “Refund Transaction” button and accept the prompt. <strong>NOTE: Only Paid transactions can be refunded. Pending transactions can be voided through Braintree as described below.</strong></li>
+</ol>
+<h2>View and refund a member’s transaction from their profile</h2>
+<ol>
+  <li>Login as a admin user and navigate to a member’s profile, then select “Payment History” to view their transactions</li>
+  <li>These transactions are also filterable by date.</li>
+  <li>Select a transaction to refund, click “Refund Transaction” button and accept the prompt. <strong>NOTE: Only Paid transactions can be refunded. &nbsp;Pending transactions can be voided through Braintree as described below.</strong></li>
+</ol>
+<h2><strong>Voiding a transaction</strong></h2>
+<p>If a member has just made a payment and realized it was in error, the transaction can be voided from our side before it clears. &nbsp;Once a payment clears ("settled"), one must use the refund process described above.&nbsp;</p>
+<ol>
+  <li><a href="https://braintreegateway.com">Login to Braintree Gateway</a> using the Makerspace PayPal credentials.</li>
+  <li>Navigate to "Transactions" by clicking the associated link in the header.</li>
+  <li>Search for the transaction you would like to void. You can see all transactions that can be voided by limiting the Status property of search to "Authorized", "Submitted For Settlement", and "Settlement Pending".</li>
+  <li>In the resulting search table, click the associated transaction ID to view the transaction details.</li>
+  <li>Click the red "Void" button in the upper left hand corner to void the transaction.</li>
+</ol>
+<h2>Failed Transactions</h2>
+<p>When we receive a transaction, we will get a Slack notification in #member-relations regardless of success or failure. The related member will also receive a Slack notification privately. In the event of a failure, the reason for failure will also be included in the message. If you are unsure what this failure status means, you can <a href="https://developers.braintreepayments.com/reference/general/statuses#transaction">review all transaction status definitions here</a>. Details regarding how to handle failed <strong>Subscription</strong> payments may be found here. If you are worried about how many transactions get declined, please note the industry standard is about 10%.</p>
+<h3>Manually Retry Transactions</h3>
+<ol>
+  <li><a href="https://braintreegateway.com">Login to Braintree Gateway</a> using the Makerspace PayPal credentials.</li>
+  <li>Navigate to "Subscriptions" by clicking the associated link in the header.</li>
+  <li>Search for the subscription you would like to retry. You can see all subscriptions that can be retried by limiting the Status property of search to "past due".</li>
+  <li>In the resulting search table, click the "Retry" link in the right side of the table.</li>
+  <li>Verify the transaction details and create a new transaction.</li>
+</ol>
+<h3>Changing Payment Method</h3>
+<ol>
+  <li>Payment methods cannot be changed for failed transactions <strong>unless it is a failed subscription transaction.</strong> &nbsp;If the payment method is invalid for a one off transaction, the proper way to change the Payment Method is to void the failed transaction and submit a new one. <strong>For updating a subscription's payment method, follow these instructions.&nbsp;</strong></li>
+</ol>

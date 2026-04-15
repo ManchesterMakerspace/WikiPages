@@ -1,0 +1,11 @@
+<!--
+title: Manage Makerspace Credit System
+description: Details on manual and automatic processes used in managing the Makerspace Credit System
+published: true
+date: 2020-02-03T21:59:33.128Z
+tags: 
+editor: undefined
+dateCreated: 2020-02-03T21:59:31.804Z
+-->
+
+<h1>Manual Management</h1><p>The spreadsheet tracking current volunteer credits can be <a href="https://docs.google.com/spreadsheets/d/1yqh0up95RqWu-0SyGuqPIC9APnbcCtpF0ToLKU5dl6k">found here</a>. &nbsp;<strong>Do NOT move or copy the spreadsheet to a different location. Automated software uses its location to automatically update it.</strong></p><h3><strong>Adding a credit event</strong></h3><ol><li>On the Volunteer Spreadsheet sheet, add the date of the event in Row 1</li><li>On the Date Details sheet, include a short description of what the volunteer credit is for</li><li>Back on the Volunteer Spreadsheet, under the column of the date that you added in Step 1 above, enter your initials for each member that participated in the volunteer event. NOTE: The spreadsheet may need to be unfiltered to see all members.</li><li>Thats it. Do not update the required or completed count. Do not include anything for members that did not participate. Automated software described below will update those columns.&nbsp;</li></ol><h1>Automated Management</h1><p>On the last day of every month, automated software will parse this spreadsheet and complete the following actions:</p><ul><li>Add missing members</li><li>Update required credits for the year per member</li></ul><h3>Monthly Updates</h3><p>At the end of every month, software checks membership snapshots (lists of who were members on a particular day) and determine what members were active for more than 21 days that month. If they were active, their requirement count for the year increases <a href="/volunteer-credit">based on the schedule listed here</a>.</p><p>Additionally, software will go through any volunteer dates and look for blank cells for members. If they were a member at that day, it will mark the cell with a dash, and if they weren't a member, then it marks "N/A". These notations not really matter for the total count but act as a sanity check for review.</p><p>The completed column counts how many volunteer days have someone's initials in them. (It will count anything thats not empty, or - or N/A)</p><p>&nbsp;</p>
