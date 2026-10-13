@@ -1,0 +1,16 @@
+---
+title: Paint Shop
+description: The paint booth and powdercoating oven
+published: true
+date: 2026-10-13T15:52:10.200Z
+tags: shop, paint
+editor: markdown
+dateCreated: 2026-10-13T15:52:10.200Z
+---
+
+# Paint Booth
+Slack Channel:  #shop-paint
+
+Checkouts, including the powdercoat oven, are available via the member portal.
+
+Please properly dispose of your empty paint containers, overspray, and scrap!
