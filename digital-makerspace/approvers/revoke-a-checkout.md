@@ -22,11 +22,30 @@ You only see checkouts for the tools you can approve. An approver assigned to on
 2. Narrow the list with the filters at the top:
    - **Filter by Shop**: choose a shop, or leave it on *All Shops*.
    - **Filter by Tool**: shows *Select a shop first* until you pick a shop. Then it offers *All Tools in Shop* and each tool.
-   - **Status**: *Active only* (the default), *Revoked only* or *All*.
+   - **Status**: *Active only* (the default), *Revoked only*, *Reinstated* or *All*. *Reinstated* shows each reinstated pair: the new active checkout and the revoked one it replaced.
    - **Include expired, revoked and inactive members**: unticked by default, so people whose membership has lapsed do not clutter the list. Tick it when you need to see them.
 3. Use the **Search** box above the table to find someone by name.
 
-Each row shows the **Member** (name and email), the **Tool** and its shop, **Checked Out** (the date, and how it was signed off, for example *via portal*), **Approved By**, and **Status**: a green *Active* or a red *Revoked*.
+Each row shows the **Member** (name and email), the **Tool** and its shop, **Checked Out** (the date, and how it was signed off, for example *via portal*), **Approved By**, **Status**: a green *Active* or a red *Revoked*, and **Notes**.
+
+### The Notes column
+
+**Notes** explains each row, so you do not have to ask around:
+
+- On a **revoked** row: the reason it was revoked, who revoked it and when.
+- On a checkout that was **reinstated**: the reason it was reinstated, who reinstated it and when.
+- On an ordinary row: the note the member typed on their checkout request, if they wrote one.
+
+Notes are internal. They are shown only to approvers of that tool, Resource Managers of its shop, board members and admins. A member never sees them, not even on their own checkouts, and other members do not see them either.
+
+### Reinstated checkouts
+
+When a revoked checkout is reinstated, the revoked record is kept and a new active checkout is added. In the roster:
+
+- The new checkout shows a green *Active* with a small *Reinstated* badge, and its **Notes** give the reinstatement reason.
+- The old revoked row shows a grey *Reinstated* instead of a red *Revoked*, with a line pointing to the current checkout. Its **Notes** still show why it was revoked.
+- The two rows sit together, with the active one on top.
+- If the new checkout is later revoked, both rows show as *Revoked* again.
 
 ## Revoke a checkout
 
@@ -56,7 +75,7 @@ The row leaves the *Active only* list. To see it again, set **Status** to *Revok
 
 Use this when a revoked member has retaken the safety session, or a checkout was revoked by mistake.
 
-1. Open **Tool Checkouts** > **Checkout Roster**, set **Status** to *Revoked only* (or *All*), and tick the revoked row.
+1. Open **Tool Checkouts** > **Checkout Roster**, set **Status** to *Revoked only* (or *All*), and tick the red *Revoked* row. A row already marked *Reinstated* cannot be reinstated again.
 2. Click **Reinstate Checkout**. A box opens asking for a reason. The reason is required and internal only.
 3. Confirm. The member is checked out on the tool again, with the usual checkout message and users-channel invite.
 

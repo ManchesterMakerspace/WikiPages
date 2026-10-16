@@ -113,6 +113,8 @@ You only get it when there is a new request since your last one, or an open requ
 
 ### The checkout shows as Revoked but the member passed again
 
+Check the **Notes** column on the roster first (approvers, Resource Managers, board and admins can see it) for why it was revoked. A row marked *Reinstated* is no longer blocking: the member has a newer active checkout.
+
 The portal does not check someone out again over a revoked record. Tell the board or an admin, who can reinstate it.
 
 ---
@@ -121,7 +123,7 @@ The portal does not check someone out again over a revoked record. Tell the boar
 
 ### Reinstate someone after a revoked checkout
 
-A revoked checkout stays as a record and blocks a new request or checkout. Admins and board members can lift this from **Tool Checkouts** > **Checkout Roster**: set **Status** to *Revoked only*, tick the row and click **Reinstate Checkout**, then give a reason. The revoked record is kept and a new active checkout is added. See [Revoke a checkout](/digital-makerspace/approvers/revoke-a-checkout#reinstate-a-revoked-checkout-admins-and-board).
+A revoked checkout stays as a record and blocks a new request or checkout. Admins and board members can lift this from **Tool Checkouts** > **Checkout Roster**: set **Status** to *Revoked only*, tick the row and click **Reinstate Checkout**, then give a reason. The revoked record is kept and a new active checkout is added. The old row then shows a grey *Reinstated* status (filter by **Status** > *Reinstated* to see both rows), and the **Notes** column shows the revocation and reinstatement reasons to approvers, Resource Managers, board and admins only. See [Revoke a checkout](/digital-makerspace/approvers/revoke-a-checkout#reinstate-a-revoked-checkout-admins-and-board).
 
 ### A checkout was recorded by mistake
 
