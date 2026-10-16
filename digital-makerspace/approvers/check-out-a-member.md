@@ -1,13 +1,12 @@
 ---
 title: Check Out a Member on a Tool
-description: 
+description: How approvers record a tool checkout from a phone or the portal.
 published: true
-date: 2026-10-16T01:41:53.581Z
+date: 2026-10-16T01:33:11.499Z
 tags: portal, checkout, approvers, resource-managers
 editor: markdown
-dateCreated: 2026-10-16T01:41:53.581Z
+dateCreated: 2026-10-16T01:33:11.499Z
 ---
-
 
 # Check Out a Member on a Tool
 
@@ -23,6 +22,8 @@ Members never see the Check Out buttons.
 
 ## From a phone (at the tool)
 
+
+![The tool page after scanning the sign, with the approver sign-in link](/checkout-approver-1-tool-page-phone.png)
 1. Scan the **Checkout Required** sign on the tool. The tool's page opens, showing its name and shop, a **Request checkout** button, and below it a link: **Approver? Sign in to check out a member**.
 2. Tap **Approver? Sign in to check out a member**. Sign in if you are asked to. You land on the shop's page with a box titled **Check out a member on (tool name)** already open. If you are not allowed to check members out on that tool, the box does not open.
 3. Choose the member:
@@ -30,6 +31,8 @@ Members never see the Check Out buttons.
    - **iPhone:** a phone cannot read fobs in the browser, so use the search box, **Search by name or email**. Type a few letters and pick the member from the list.
 4. A confirmation appears: *Check (name) out on (tool)? Make sure this is the person in front of you.* Make sure it is the person in front of you. If you scanned a fob, the screen also shows the member's status and their **Membership through** date, and if they cannot be checked out it says why and the **Check Out** button is disabled.
 5. Tap **Check Out**. You will see *(name) is checked out on (tool).* Tap **Done**.
+
+![Confirmation screen before checking a member out](/checkout-approver-3-confirm-phone.png)
 
 > Scanning a fob only **identifies** the member. Nothing is recorded until you tap **Check Out**.
 {.is-info}
@@ -41,6 +44,8 @@ Members never see the Check Out buttons.
 
 ## From a computer
 
+
+![The Checkout Roster with the Check Out Member button](/checkout-approver-6-roster.png)
 1. Sign in to the member portal and open **Tool Checkouts** from the menu. As an approver you see the tabs **My Checkouts**, **Requests**, **Checkout Roster**, **Tools** and **Shop Map**, and the page opens on **Checkout Roster**.
 2. **If the member has already asked for a checkout,** open the **Requests** tab (titled *Open Checkout Requests*). Each row shows the tool and its shop, the member's name and email, their note, and the date requested. Tick the box on the request. Two buttons appear: **Decline** and **Check Out Member**. Click **Check Out Member**. The checkout is recorded at once (see the warning below).
 3. **Otherwise,** stay on **Checkout Roster** and click **Check Out Member**. A box titled **Check Out Member on Tool** opens:
@@ -54,14 +59,14 @@ Members never see the Check Out buttons.
 
 You can also do this from a shop's page: open **Workshops**, pick the shop, find the tool, and use **Check Out Member**.
 
-For a **tool group** (a set of related tools approved together), the portal shows a short review step first. [confirm the group review screen]
+For a **tool group** (a set of related tools approved together), the portal shows a short review step first. You review the member against the group, then approve once.
 
 ## What the member sees and what else happens
 
 - The member gets a Slack message naming the tool, the shop and you, plus any private tool notes (lock combination and similar), if their Slack account is linked.
 - If the tool announces checkouts, a message is posted in its channel, and the member is added to the tool's users channel when it has one. If the automatic invitation fails, the message tells you to add them by hand.
 - If the member had an open request for that tool, it closes automatically.
-- If you are an approver assigned to the tool (not an admin, board member or RM), you also earn a small automatic volunteer credit for the checkout. [confirm how this should be described to approvers]
+- If you are an approver assigned to the tool (not an admin, board member or RM), you also earn a small automatic volunteer credit for the checkout.
 - Each checkout and each fob lookup is recorded in the audit log.
 
 ## If you checked out the wrong person

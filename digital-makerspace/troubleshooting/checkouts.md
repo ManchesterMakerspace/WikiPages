@@ -1,13 +1,12 @@
 ---
 title: Troubleshooting: Tool Checkouts
-description: 
+description: Fixes for common tool checkout problems, for members, approvers, board and admins.
 published: true
-date: 2026-10-16T02:32:08.924Z
+date: 2026-10-16T01:33:11.499Z
 tags: portal, checkout, troubleshooting
 editor: markdown
-dateCreated: 2026-10-16T02:32:08.924Z
+dateCreated: 2026-10-16T01:33:11.499Z
 ---
-
 
 # Troubleshooting: Tool Checkouts
 
@@ -63,7 +62,7 @@ Read the reason in the Slack message. Fix whatever it says, then submit a new re
 
 ### I am not getting Slack messages
 
-Check that your Slack account is linked to your membership and that you have not turned off direct notifications. The portal does not email these messages. [confirm how members check that their Slack is linked]
+Check that your Slack account is linked to your membership and that you have not turned off direct notifications. The portal does not email these messages. Slack accounts are matched to members by email address, so check that the email on your Slack profile is the one on your membership. If they differ, ask a board member.
 
 ### The QR code on the tool does not work
 
@@ -122,11 +121,11 @@ The portal does not check someone out again over a revoked record. Tell the boar
 
 ### Reinstate someone after a revoked checkout
 
-A revoked checkout stays as a record and blocks a new request or checkout. Admins and board members can lift this from **Tool Checkouts** > **Checkout Roster**: set **Status** to *Revoked only*, tick the row and click **Reinstate Checkout**, then give a reason. The revoked record is kept and a new active checkout is added. See [Revoke a checkout](/digital-makerspace/approvers/revoke-a-checkout#reinstate-a-revoked-checkout-admins-and-board). [confirm: publish this entry only after the reinstate feature (Rails 390 and React 274) is deployed. Until then reinstating needs a database edit by an admin.]
+A revoked checkout stays as a record and blocks a new request or checkout. Admins and board members can lift this from **Tool Checkouts** > **Checkout Roster**: set **Status** to *Revoked only*, tick the row and click **Reinstate Checkout**, then give a reason. The revoked record is kept and a new active checkout is added. See [Revoke a checkout](/digital-makerspace/approvers/revoke-a-checkout#reinstate-a-revoked-checkout-admins-and-board).
 
 ### A checkout was recorded by mistake
 
-The portal has no delete. Revoking it leaves a revoked record, which blocks a later correct checkout until an admin or board member reinstates it. Prefer telling an admin before revoking. [confirm process]
+The portal has no delete. Revoking it leaves a revoked record, which blocks a later correct checkout until an admin or board member reinstates it. Prefer telling an admin before revoking.
 
 ### Who did what, and when
 
@@ -134,7 +133,7 @@ Open **Audit Log** (admins and board). Checkout events, fob lookups and request 
 
 ### Reminders are not appearing in the Resource Managers channel
 
-Open **Portal Settings** and check the **Slack** tab: the Resource Managers channel must be set. Also check the **Jobs** tab to see that the checkout request reminder and digest jobs have run. [confirm what the Jobs tab shows]
+Open **Portal Settings** and check the **Slack** tab: the Resource Managers channel must be set. Also check the **Jobs** tab to see that the checkout request reminder and digest jobs have run.
 
 ### Slash commands say a shop is not configured
 

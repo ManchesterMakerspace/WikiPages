@@ -1,13 +1,12 @@
 ---
 title: The /checkout Slack Command
-description: 
+description: Request and approve tool checkouts with the /checkout Slack command.
 published: true
-date: 2026-10-16T02:09:02.296Z
-tags: 
+date: 2026-10-16T01:33:11.499Z
+tags: slack, checkout, portal
 editor: markdown
-dateCreated: 2026-10-16T02:09:02.296Z
+dateCreated: 2026-10-16T01:33:11.499Z
 ---
-
 
 # The /checkout Slack Command
 
@@ -15,7 +14,7 @@ You can request and approve tool checkouts without opening the portal. Menus, li
 
 ## Before you start
 
-Your Slack account must be linked to your portal membership. If it is not, Slack replies *Link your Slack account to a Member Portal account before using /checkout.* Accounts are matched by the email address on your membership, so make sure it is the same one you use in Slack, or ask a board member to help. [confirm how the link is made]
+Your Slack account must be linked to your portal membership. If it is not, Slack replies *Link your Slack account to a Member Portal account before using /checkout.* Accounts are matched by the email address on your membership, so make sure it is the same one you use in Slack, or ask a board member to help.
 
 Your membership status decides what you can do. If something is wrong, the command tells you:
 

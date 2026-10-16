@@ -1,13 +1,12 @@
 ---
 title: Revoke a Checkout and Review the Checkout Roster
-description: 
+description: Review the checkout roster, revoke a checkout, and reinstate one (admins and board).
 published: true
-date: 2026-10-16T01:49:30.260Z
+date: 2026-10-16T01:33:11.499Z
 tags: portal, checkout, approvers, resource-managers
 editor: markdown
-dateCreated: 2026-10-16T01:49:30.260Z
+dateCreated: 2026-10-16T01:33:11.499Z
 ---
-
 
 # Revoke a Checkout and Review the Checkout Roster
 
@@ -17,6 +16,8 @@ You only see checkouts for the tools you can approve. An approver assigned to on
 
 ## Find a checkout
 
+
+![Checkout Roster filters](/checkout-roster-1-filters.png)
 1. Open **Tool Checkouts** > **Checkout Roster**. Approvers and Resource Managers land on this tab by default.
 2. Narrow the list with the filters at the top:
    - **Filter by Shop**: choose a shop, or leave it on *All Shops*.
@@ -29,6 +30,8 @@ Each row shows the **Member** (name and email), the **Tool** and its shop, **Che
 
 ## Revoke a checkout
 
+
+![The Revoke Checkout box](/checkout-roster-2-revoke-dialog.png)
 1. Tick the box on the member's row. A **Revoke Checkout** button appears next to **Check Out Member**.
 2. Click **Revoke Checkout**. A box opens: *Revoke (member)'s checkout for (tool) in (shop)?* It reminds you that *the member will be notified via Slack DM* and that *the reason is internal only*.
 3. Type the **Reason for revocation (internal)**. It is required.
@@ -46,12 +49,22 @@ The row leaves the *Active only* list. To see it again, set **Status** to *Revok
 - If the original approver earned the automatic volunteer credit for the checkout, the credit is reversed.
 - The checkout stays in the roster as **Revoked**, so there is a permanent record.
 
-> **A revoked checkout still blocks a new one.** The portal will not check the same member out on that tool again, and the member cannot request it. If someone who was revoked has retaken the safety session and should be reinstated, tell the board or an admin. [confirm the agreed process]
+> **A revoked checkout blocks a new one.** The portal will not check the same member out on that tool again, and the member cannot request it. Only an admin or board member can lift this, with **Reinstate Checkout** (next section). Approvers and Resource Managers cannot, so contact the board.
 {.is-warning}
+
+## Reinstate a revoked checkout (admins and board)
+
+Use this when a revoked member has retaken the safety session, or a checkout was revoked by mistake.
+
+1. Open **Tool Checkouts** > **Checkout Roster**, set **Status** to *Revoked only* (or *All*), and tick the revoked row.
+2. Click **Reinstate Checkout**. A box opens asking for a reason. The reason is required and internal only.
+3. Confirm. The member is checked out on the tool again, with the usual checkout message and users-channel invite.
+
+The original revoked record stays in the roster, alongside the new active checkout, so the history is kept. The audit log records who reinstated it and why. Reinstating does not restore a tool-approver assignment the member lost when revoked: add it again if needed.
 
 ## When not to revoke
 
-- **You recorded the wrong member or tool by mistake.** Tell the board or an admin rather than revoking, because revoking leaves a permanent revoked record that blocks the correct checkout. [confirm process]
+- **You recorded the wrong member or tool by mistake.** Tell the board or an admin rather than revoking, because revoking leaves a permanent revoked record that blocks the correct checkout until an admin or board member reinstates it.
 - **Membership has lapsed.** You do not need to revoke. Lapsed members are hidden from the roster by default, and their checkouts are still there if they renew.
 
 ## See also

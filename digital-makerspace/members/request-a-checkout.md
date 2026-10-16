@@ -1,6 +1,6 @@
 ---
 title: Request a Tool Checkout
-description: 
+description: How members request a tool checkout, by QR code or through the member portal.
 published: true
 date: 2026-10-16T01:33:11.499Z
 tags: portal, checkout, members

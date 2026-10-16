@@ -1,13 +1,12 @@
 ---
 title: Tool Groups and Checkout Approvers
-description: 
+description: How checkout approvers and tool groups work, and how to set them up.
 published: true
-date: 2026-10-16T02:24:31.791Z
-tags: portal, tools, shops, resource-managers, checkout
+date: 2026-10-16T01:33:11.499Z
+tags: portal, tools, groups, approvers, resource-managers, checkout
 editor: markdown
-dateCreated: 2026-10-16T02:24:31.791Z
+dateCreated: 2026-10-16T01:33:11.499Z
 ---
-
 
 # Tool Groups and Checkout Approvers
 
@@ -17,9 +16,9 @@ Two features decide who can check members out, and on what: **approvers**, who s
 
 An approver is a member who is allowed to sign off checkouts through the portal or the `/checkout` Slack command. Being an approver is separate from being a Resource Manager, and it does not give access to anything else.
 
-Only admins and board members see the **Approvers** tab (**Tool Checkouts** > **Approvers**), titled **Checkout Approvers**. The table lists each **Member** (name and email) with their **Authorized Tools**, **Authorized Groups** and **Authorized Shops**. [confirm: Resource Managers do not see this tab in the portal, so they cannot assign approvers themselves, and ask the board]
+Only admins and board members see the **Approvers** tab (**Tool Checkouts** > **Approvers**), titled **Checkout Approvers**. The table lists each **Member** (name and email) with their **Authorized Tools**, **Authorized Groups** and **Authorized Shops**. Resource Managers do not see this tab, so ask a board member or admin to add or change approvers.
 
-![The Approvers tab](images/adm-approvers.png)
+![The Approvers tab](/checkout-adm-approvers.png)
 
 ### What an approver can sign off
 
@@ -38,11 +37,11 @@ Approvers see only the requests and the roster rows for what they are assigned. 
 3. Under **Checkout approval scope**, click the shop chips for whole shops, or the tool chips under each shop for individual tools. At least one is required, or the box says *Select at least one shop, tool, or group.*
 4. Click **Add Approver**. Click **Cancel** to close without saving.
 
-![Add Checkout Approver](images/adm-add-approver.png)
+![Add Checkout Approver](/checkout-adm-add-approver.png)
 
 ### Change or remove an approver
 
-Tick the approver's row to get the edit and remove buttons. Edit changes their scope. The box is titled **Edit Approver** with the member's name. To remove someone, tick the row, use the remove button and confirm **Remove**: *They will no longer be able to sign off checkouts via the portal or Slack.* [confirm the exact button labels after ticking a row]
+Tick the approver's row to get the edit and remove buttons. Edit changes their scope. The box is titled **Edit Approver** with the member's name. To remove someone, tick the row, use the remove button and confirm **Remove**: *They will no longer be able to sign off checkouts via the portal or Slack.*
 
 ### How people become approvers
 
@@ -51,7 +50,7 @@ Tick the approver's row to get the edit and remove buttons. Edit changes their s
 
 A revoked checkout removes the person's approval for that tool. See [Revoke a checkout](/digital-makerspace/approvers/revoke-a-checkout).
 
-Approvers who are not admins, board members or Resource Managers earn a small automatic volunteer credit for each member they check out. [confirm how to describe this to approvers]
+Approvers who are not admins, board members or Resource Managers earn a small automatic volunteer credit for each member they check out.
 
 ## Tool groups
 
@@ -76,7 +75,7 @@ A group has no QR code, sign, short link or public page of its own.
 | **Announce requests and checkouts** | Posts a message in the announcement channel. Off by default. |
 | **Announcement channel** | Optional. Defaults to the shop's channel. |
 
-![Add Group form](images/adm-add-group.png)
+![Add Group form](/checkout-adm-add-group.png)
 
 ### How group checkouts work
 
