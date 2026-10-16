@@ -47,19 +47,19 @@ The table shows each tool's name and shop, its **Location**, any **Prerequisites
 | **Checkout prerequisites** | Other tools in this shop that a member must be checked out on first. A warning shows if they are not met. |
 | **Reservable** | Whether the tool can be reserved. |
 
-![Add Tool dialog](/checkout-rm-add-tool-full.png)
+![Add Tool dialog](/checkout-rm-add-tool-full.png){width=450px}
 
 ## Edit or remove a tool
 
 Tick the tool and click **Edit** to change any field. **Delete** removes the tool after you confirm. It is refused if the tool has current or future reservations (cancel them first) or if another tool lists it as a prerequisite. Deleting a tool also removes it from approvers' scopes. If you only want to stop members seeing a tool for a while, use **Hidden** or **Mark out of service** instead.
 
-![A selected tool with its four buttons](/checkout-rm-tool-selected.png)
+![A selected tool with its four buttons](/checkout-rm-tool-selected.png){width=700px}
 
 ## Mark a tool out of service
 
 Click **Mark out of service** on the tool's row. A box titled **Tool availability** opens. It explains that new reservations will be blocked, that existing bookings and billing remain for staff review, and that the **Hidden** setting is unchanged. It also links to **Review open tickets for this tool**. Click **Confirm** to apply it, or **Close** to cancel.
 
-![Mark out of service dialog](/checkout-rm-oos-dialog.png)
+![Mark out of service dialog](/checkout-rm-oos-dialog.png){width=700px}
 
 ## The Shops tab
 
@@ -80,7 +80,7 @@ Tick the shop and click **Edit**. The box lists:
 | **Reservable** | Whether the shop can be reserved. |
 | **Slack Channel** | The shop's channel, for example `#shop-woodworking`. **This is how `/checkout` and `/reserve` in Slack know which shop a command is for.** Set it, or the Slack commands and the printed sign will have no channel. |
 
-![Edit Shop dialog](/checkout-rm-edit-shop-dialog.png)
+![Edit Shop dialog](/checkout-rm-edit-shop-dialog.png){width=700px}
 
 Adding a new shop, deleting one, and assigning its Resource Managers are done by admins and board members.
 
@@ -93,7 +93,7 @@ Every tool that requires a checkout should carry the sign with the QR code that 
 3. Check the preview, then click **Download SVG**.
 4. Open the file and print it on **US Letter, landscape, at 100% / actual size**. Do not choose "fit to page".
 
-![Checkout Required Sheet preview](/checkout-rm-sheet-dialog.png)
+![Checkout Required Sheet preview](/checkout-rm-sheet-dialog.png){width=700px}
 
 Each sign shows the tool or shop name, **Operation & Safety**, the round logo, the words **Checkout Required**, the shop's Slack channel at the bottom, and a QR code captioned **Scan QR to Request Checkout**. If the shop has no Slack channel set, the footer is blank and a warning shows in the preview, so set the channel first.
 

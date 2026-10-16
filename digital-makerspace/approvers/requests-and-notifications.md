@@ -29,7 +29,7 @@ Tick the box on a request. Two buttons appear:
 ### Decline a request
 
 
-![The Decline Checkout Request box](/checkout-requests-1-decline-dialog.png)
+![The Decline Checkout Request box](/checkout-requests-1-decline-dialog.png){width=700px}
 1. Tick the request and click **Decline**.
 2. A box titled **Decline Checkout Request** opens. It says who will be told, for example *Basic Member3 will be told this request for Air Compressor was declined, along with your reason.*
 3. Type a **Reason**. It is required (up to 255 characters). If you leave it empty, the box says *Enter a reason for declining.*

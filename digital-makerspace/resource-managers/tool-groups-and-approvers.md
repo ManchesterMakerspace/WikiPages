@@ -18,7 +18,7 @@ An approver is a member who is allowed to sign off checkouts through the portal 
 
 Only admins and board members see the **Approvers** tab (**Tool Checkouts** > **Approvers**), titled **Checkout Approvers**. The table lists each **Member** (name and email) with their **Authorized Tools**, **Authorized Groups** and **Authorized Shops**. Resource Managers do not see this tab, so ask a board member or admin to add or change approvers.
 
-![The Approvers tab](/checkout-adm-approvers.png)
+![The Approvers tab](/checkout-adm-approvers.png){width=450px}
 
 ### What an approver can sign off
 
@@ -37,7 +37,7 @@ Approvers see only the requests and the roster rows for what they are assigned. 
 3. Under **Checkout approval scope**, click the shop chips for whole shops, or the tool chips under each shop for individual tools. At least one is required, or the box says *Select at least one shop, tool, or group.*
 4. Click **Add Approver**. Click **Cancel** to close without saving.
 
-![Add Checkout Approver](/checkout-adm-add-approver.png)
+![Add Checkout Approver](/checkout-adm-add-approver.png){width=450px}
 
 ### Change or remove an approver
 
@@ -75,7 +75,7 @@ A group has no QR code, sign, short link or public page of its own.
 | **Announce requests and checkouts** | Posts a message in the announcement channel. Off by default. |
 | **Announcement channel** | Optional. Defaults to the shop's channel. |
 
-![Add Group form](/checkout-adm-add-group.png)
+![Add Group form](/checkout-adm-add-group.png){width=450px}
 
 ### How group checkouts work
 

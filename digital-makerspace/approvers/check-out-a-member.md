@@ -23,7 +23,7 @@ Members never see the Check Out buttons.
 ## From a phone (at the tool)
 
 
-![The tool page after scanning the sign, with the approver sign-in link](/checkout-approver-1-tool-page-phone.png)
+![The tool page after scanning the sign, with the approver sign-in link](/checkout-approver-1-tool-page-phone.png){width=260px}
 1. Scan the **Checkout Required** sign on the tool. The tool's page opens, showing its name and shop, a **Request checkout** button, and below it a link: **Approver? Sign in to check out a member**.
 2. Tap **Approver? Sign in to check out a member**. Sign in if you are asked to. You land on the shop's page with a box titled **Check out a member on (tool name)** already open. If you are not allowed to check members out on that tool, the box does not open.
 3. Choose the member:
@@ -32,7 +32,7 @@ Members never see the Check Out buttons.
 4. A confirmation appears: *Check (name) out on (tool)? Make sure this is the person in front of you.* Make sure it is the person in front of you. If you scanned a fob, the screen also shows the member's status and their **Membership through** date, and if they cannot be checked out it says why and the **Check Out** button is disabled.
 5. Tap **Check Out**. You will see *(name) is checked out on (tool).* Tap **Done**.
 
-![Confirmation screen before checking a member out](/checkout-approver-3-confirm-phone.png)
+![Confirmation screen before checking a member out](/checkout-approver-3-confirm-phone.png){width=260px}
 
 > Scanning a fob only **identifies** the member. Nothing is recorded until you tap **Check Out**.
 {.is-info}
@@ -45,7 +45,7 @@ Members never see the Check Out buttons.
 ## From a computer
 
 
-![The Checkout Roster with the Check Out Member button](/checkout-approver-6-roster.png)
+![The Checkout Roster with the Check Out Member button](/checkout-approver-6-roster.png){width=700px}
 1. Sign in to the member portal and open **Tool Checkouts** from the menu. As an approver you see the tabs **My Checkouts**, **Requests**, **Checkout Roster**, **Tools** and **Shop Map**, and the page opens on **Checkout Roster**.
 2. **If the member has already asked for a checkout,** open the **Requests** tab (titled *Open Checkout Requests*). Each row shows the tool and its shop, the member's name and email, their note, and the date requested. Tick the box on the request. Two buttons appear: **Decline** and **Check Out Member**. Click **Check Out Member**. The checkout is recorded at once (see the warning below).
 3. **Otherwise,** stay on **Checkout Roster** and click **Check Out Member**. A box titled **Check Out Member on Tool** opens:
