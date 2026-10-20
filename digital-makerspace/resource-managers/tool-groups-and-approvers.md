@@ -94,3 +94,13 @@ In Slack, `/checkout @member group-name` opens a review box first. See [the /che
 - [Add and manage tools and shops](/digital-makerspace/resource-managers/tools-and-shops)
 - [Check out a member](/digital-makerspace/approvers/check-out-a-member)
 - [Troubleshooting: checkouts](/digital-makerspace/troubleshooting/checkouts)
+
+## Group training plans and expiration
+
+Set **Checkout Training Plan URL** in the group editor to show a training link
+on group requests. Checkouts approved through that group use the tool’s current
+training link when set, otherwise the originating group’s current link. Moving
+a tool to another group does not replace the checkout’s originating group.
+Each included tool’s **Checkouts expire after** policy determines its date.
+Expired checkouts no longer satisfy prerequisites or new approver volunteering
+eligibility, but expiration alone does not delete explicit approver assignments.

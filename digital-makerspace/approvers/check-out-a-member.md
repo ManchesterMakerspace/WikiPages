@@ -82,3 +82,13 @@ You can also approve from Slack: `/checkout` > **View open requests**, or `/chec
 - [Requests, reminders and notifications](/digital-makerspace/approvers/requests-and-notifications)
 - [Revoke a checkout](/digital-makerspace/approvers/revoke-a-checkout)
 - [Troubleshooting: checkouts](/digital-makerspace/troubleshooting/checkouts)
+
+## Renewal and expiration
+
+An expired checkout can be requested and approved again when the member meets
+the current prerequisites. Approval creates a new checkout and preserves the
+previous one as superseded History. Approval and reinstatement use the tool’s
+current Never/1–5-year policy, with dates valid through the displayed Eastern
+calendar day. Expiration is separate from revocation; use the existing admin/board
+reinstatement flow for unresolved revocations. Approver privileges alone do not
+allow editing a checkout’s expiration date.

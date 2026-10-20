@@ -75,3 +75,25 @@ Open **Tool Checkouts** > **My Checkouts**. It is titled **My Active Tool Checko
 ## Need help?
 
 See [Troubleshooting: checkouts](/digital-makerspace/troubleshooting/checkouts).
+
+## Training plans and renewing an expired checkout
+
+If a tool or group has a training plan, select **Checkout training plan** before
+submitting your request. The link also appears on your pending request and
+existing checkout and opens separately from the portal. Slack request and
+checkout details show the same link.
+
+After submitting a new request through the portal or Slack, members with a
+linked Slack account receive a confirmation DM. When the requested tool or
+group has a training plan, the DM directs you to review the material next;
+select **Checkout training plan** in the message to open it.
+
+Your checkout shows **Never expires**, **Expires [date]**, or **Expired [date]**.
+Dates are Eastern time and checkouts remain valid through that date. In your
+checkout list, choose **Expired** and select **Request renewal** when available.
+An approver must approve the renewal. Your previous checkout remains in History.
+A revoked checkout requires admin or board reinstatement instead.
+
+The Reinstated filter is available in the authorized checkout management roster,
+not My Tool Checkouts. Use your Expired, Renewal history, Revoked, or All views
+to inspect your own checkout records.

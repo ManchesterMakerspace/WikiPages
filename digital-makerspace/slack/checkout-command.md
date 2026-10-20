@@ -91,3 +91,11 @@ If you are checked out on a tool and know it well, run `/checkout volunteer` and
 ## Related commands
 
 Reservations use `/reserve` and volunteer tasks use `/volunteer`. They will have their own pages.
+
+## Training plans and expired checkouts
+
+Checkout request creation, your request details, and your checkout details show
+a clickable **Checkout training plan** link when configured. **View my checkouts**
+also includes expired checkouts and labels their expiration date. Expiration
+does not expose private tool notes through the old checkout. Use the Member
+Portal’s Expired filter and **Request renewal** to request another approval.

@@ -110,3 +110,22 @@ To print only a QR code (for example for a label), use **QR Code** on the tool o
 
 - [Tool groups and approvers](/digital-makerspace/resource-managers/tool-groups-and-approvers)
 - [Requests, reminders and notifications](/digital-makerspace/approvers/requests-and-notifications)
+
+## Training plans and checkout expiration
+
+Tool creation and editing include **Checkout Training Plan URL** and
+**Checkouts expire after** (Never or 1–5 years). URLs must be absolute HTTP/HTTPS
+links. Expiration policy changes affect later approvals and reinstatements,
+not dates already assigned. Group approvals apply each included tool’s policy.
+
+Admins, board members, and the shop’s Resource Managers can select
+**Edit expiration** on a current non-revoked checkout. Choose any Eastern date,
+or Never. A past date expires the checkout immediately. If another change
+occurs while editing, refresh and review the updated record before saving again.
+
+For a selected tool, **Set checkout expirations** shows the tool and affected
+count. Choose a date later than today and confirm. Current expired and undated
+checkouts are included; revoked and superseded history are excluded. Changes
+are audited. Date changes do not automatically cancel existing reservations;
+those bookings are revalidated when edited. Ordinary approvers cannot change
+expiration settings or dates.

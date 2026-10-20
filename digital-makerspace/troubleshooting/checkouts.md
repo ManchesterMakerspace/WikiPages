@@ -152,3 +152,24 @@ The sign's QR code is a permanent short link. Short links cannot be created if t
 ### Approvers cannot see or approve requests
 
 Open **Tool Checkouts** > **Approvers** and tick their row and use the edit button to check their scope. Approval for a group needs a shop assignment or a group assignment, not just individual tools in the group.
+
+## Checkout expired or reservation ends after expiration
+
+A checkout is valid through its displayed date in Eastern time. Missing dates
+mean Never expires. Select **Expired** in your checkout list and use
+**Request renewal** when available, then complete any required training and wait
+for approval. If the checkout was revoked, contact an admin or board member.
+
+Reservation errors name checkouts that expire before the reservation ends,
+including shop and group prerequisites. Request renewal or choose an earlier
+end time. An end exactly at midnight after the expiration date is permitted.
+Existing bookings are not automatically canceled after expiration edits, but
+editing a booking rechecks its prerequisites. Cancellation remains available.
+
+## Checkout operations remain busy after a bulk expiration update
+
+A bulk update keeps the shop locked until its transaction finishes. If its
+worker crashes, ask an administrator to confirm the worker has stopped and
+recover the orphan catalog lock using the Rails jobs/services runbook. Do not
+clear a lock while an update may still be running. Failed transactions do not
+leave partially updated expiration dates or audits.
