@@ -17,7 +17,7 @@ You only see checkouts for the tools you can approve. An approver assigned to on
 ## Find a checkout
 
 
-![Checkout Roster filters](/checkout-roster-1-filters.png){width=700px}
+![Checkout Roster filters](/images/checkouts/roster-1-filters.png){width=700px}
 1. Open **Tool Checkouts** > **Checkout Roster**. Approvers and Resource Managers land on this tab by default.
 2. Narrow the list with the filters at the top:
    - **Filter by Shop**: choose a shop, or leave it on *All Shops*.
@@ -50,7 +50,7 @@ When a revoked checkout is reinstated, the revoked record is kept and a new acti
 ## Revoke a checkout
 
 
-![The Revoke Checkout box](/checkout-roster-2-revoke-dialog.png){width=700px}
+![The Revoke Checkout box](/images/checkouts/roster-2-revoke-dialog.png){width=700px}
 1. Tick the box on the member's row. A **Revoke Checkout** button appears next to **Check Out Member**.
 2. Click **Revoke Checkout**. A box opens: *Revoke (member)'s checkout for (tool) in (shop)?* It reminds you that *the member will be notified via Slack DM* and that *the reason is internal only*.
 3. Type the **Reason for revocation (internal)**. It is required.
