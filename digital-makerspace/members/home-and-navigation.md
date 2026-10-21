@@ -30,7 +30,7 @@ Under it you may see a note asking you to accept your Slack invite (check your e
 
 ### Available Volunteer Opportunities
 
-Open tasks and events you can take part in. Use **Claim Task** to take a task, or **Join Event** to sign up for an event. When you finish a task, mark it complete in the **Volunteer** tab on your profile. Credits are issued after the work is reviewed.
+Tasks and events you can take part in to help run the makerspace. Volunteer activities earn points, and each opportunity shows what it is worth (the portal labels this "volunteer credit"). Use **Claim Task** to take a task, or **Join Event** to sign up for an event. When you finish a task, mark it complete in the **Volunteer** tab on your profile. Points are added after the work is reviewed.
 
 ### Available safety checkouts
 
@@ -42,7 +42,7 @@ Anything you owe that is currently due, with **Pay** to pay it and **View** to s
 
 ## If you just joined
 
-After you register, the Home page opens with a **Welcome!** message. It reminds you to check your email for your onboarding documents and your invitations to Google Drive and Slack, and tells you the next step: complete your in-person orientation and receive your access card. See [New Member Orientation](/our-facilities/orientation). Your membership starts when you receive your key fob.
+After you register, the Home page opens with a **Welcome!** message. It reminds you to check your email for your onboarding documents and your invitations to Google Drive and Slack, and tells you the next step: complete your in-person orientation and receive your access card. See [New Member Orientation](/our-facilities/orientation). Your membership time starts when you receive your key fob, not when you pay, so you do not lose any membership time while you wait. If there is a long gap between paying and getting your fob, your billing date and your membership expiration date will not match. That is normal.
 
 ![The welcome message](/images/home/home-welcome-phone.png){width=260px}
 
@@ -71,17 +71,13 @@ Some items may not appear, depending on how the makerspace has set up the portal
 
 ## Staff menus
 
-Board members, Resource Managers and admins see more menu items than members do. What you see depends on your role.
-
-![The staff menu](/images/home/menu-staff.png){width=700px}
-
-Staff items include **Analytics**, **Audit Log**, **Billing**, **Earned Memberships**, **Members**, **Portal Settings**, **Rentals**, **Shop Fees**, **Volunteer**, and the management tabs inside **Tool Checkouts**. Resource Managers see the items that apply to the shops they manage. If you expect an item and do not see it, ask a board member to check your role.
+Board members, Resource Managers and admins see more menu items than members do, depending on their role. Those are covered in the admin and resource manager sections of this wiki. If you expect a menu item and do not see it, ask a board member to check your role.
 
 ## If something looks wrong
 
 | What you see | What to do |
 | --- | --- |
-| Your status says **Pending** or **Inactive** | Finish sign-up: sign the agreements, complete orientation, and get your key fob. If you have, ask in #discuss-talk-to-the-board. |
+| Your status says **Pending** or **Inactive** | Come to an open house to get your orientation and key fob, or ask in #discuss-talk-to-the-board. |
 | Your expiration date is wrong, or says **Expired** | Check **Subscriptions** under the menu. If your subscription lapsed, renew it. Otherwise ask the board. |
 | The page says it could not load | Use the **Retry** button. If it keeps failing, sign out and back in. |
 | **Please accept your Slack invite** will not go away | Open the Slack invitation in your email and accept it. Ask the board if you cannot find it. |
