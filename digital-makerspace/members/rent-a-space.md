@@ -18,6 +18,8 @@ You can rent a space if your membership is in good standing and you have no outs
 
 Most rentals, such as storage totes, are self-service: you choose the space and the portal walks you through the rest. Some rentals need prior approval from the board. Those are marked **Approval required** in the portal, and are covered below.
 
+Daily rentals, such as the auto bay and outside parking, are not rented this way. They are invoiced through shop fees, and are available after you contact the appropriate people under the shop's policy. See [Storage Rentals](/rentals). Floor and large plots also need approval, and not all of them are set up in the portal, so contact the board first.
+
 ## Rent from the QR code (the quickest way)
 
 Every rental space has a label with a QR code on it.
@@ -66,7 +68,7 @@ After you sign the agreement, the invoice appears in the **Dues** tab on your pr
 2. Choose a payment method, or use **Add New Payment Method** to add a card, PayPal or Venmo. Click **Next**.
 3. Review the items and total, then click **Submit Payment**.
 
-Your rental is billed on the plan shown on the review screen, which also describes how the plan renews, so read it before you pay. You can see past payments under **Payment History** and manage payment methods in your account settings.
+Rentals that are subscriptions renew automatically on the subscription schedule selected when you set up the rental. The review screen shows the plan and describes how it renews, so read it before you pay. You can see past payments under **Payment History** and manage payment methods in your account settings.
 
 ![The rental invoice in the Dues tab](/images/rentals/member-dues.png){width=260px}
 
