@@ -1,15 +1,12 @@
 ---
-title: Welcome to Manchester Makerspace (Draft)
-description: Draft welcome page for the wiki, for review. A new starting point for members, approvers, Resource Managers and admins.
+title: Manchester Makerspace Wiki
+description: Helpful documentation for Manchester Makerspace members
 published: true
-date: 2026-10-21T12:00:00.000Z
-tags: draft, welcome
+date: 2026-10-21T14:00:00.000Z
+tags: 
 editor: markdown
-dateCreated: 2026-10-21T12:00:00.000Z
+dateCreated: 2019-09-26T11:42:46.605Z
 ---
-
-> **Draft for review.** This page is a staging copy of a new wiki welcome page. It is not linked from anywhere. When it is approved it will replace the current home page.
-{.is-warning}
 
 # Welcome to Manchester Makerspace
 
