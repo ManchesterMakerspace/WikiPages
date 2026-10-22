@@ -11,7 +11,7 @@ dateCreated: 2019-09-26T12:05:50.422Z
 <h1>Transactions</h1>
 <h6>Transactions can be reviewed as a whole from Billing Central or on a per-member basis in the member’s profile. In the event of any issues with the software, you may <a href="https://www.braintreegateway.com/login">log into Braintree</a> to take similar actions.</h6>
 <p>&nbsp;</p>
-<h2>View and refund any transaction from Billing Central</h2>
+<h2>View and refund any transaction from Billing Central</h2><p>You can narrow the list with <strong>Filters</strong> and save it with <strong>Download Table</strong>. The <strong>Refunds Pending</strong> count at the top of Billing Central shows refund requests waiting for review.</p>
 <ol>
   <li>Login as an admin user and navigate to Billing Central, using the “Billing” option from the upper right hamburger menu</li>
   <li>Select the “Transactions” tab to view the transactions table.</li>
@@ -34,7 +34,7 @@ dateCreated: 2019-09-26T12:05:50.422Z
   <li>Click the red "Void" button in the upper left hand corner to void the transaction.</li>
 </ol>
 <h2>Failed Transactions</h2>
-<p>When we receive a transaction, we will get a Slack notification in #member-relations regardless of success or failure. The related member will also receive a Slack notification privately. In the event of a failure, the reason for failure will also be included in the message. If you are unsure what this failure status means, you can <a href="https://developers.braintreepayments.com/reference/general/statuses#transaction">review all transaction status definitions here</a>. Details regarding how to handle failed <strong>Subscription</strong> payments may be found here. If you are worried about how many transactions get declined, please note the industry standard is about 10%.</p>
+<p>When we receive a transaction, we will get a Slack notification in the members relations Slack channel (set in Portal Settings; the default is <code>members_relations</code>) regardless of success or failure. The related member will also receive a Slack notification privately. In the event of a failure, the reason for failure will also be included in the message. If you are unsure what this failure status means, you can <a href="https://developers.braintreepayments.com/reference/general/statuses#transaction">review all transaction status definitions here</a>. Details regarding how to handle failed <strong>Subscription</strong> payments may be found here. If you are worried about how many transactions get declined, please note the industry standard is about 10%.</p>
 <h3>Manually Retry Transactions</h3>
 <ol>
   <li><a href="https://braintreegateway.com">Login to Braintree Gateway</a> using the Makerspace PayPal credentials.</li>
@@ -47,3 +47,4 @@ dateCreated: 2019-09-26T12:05:50.422Z
 <ol>
   <li>Payment methods cannot be changed for failed transactions <strong>unless it is a failed subscription transaction.</strong> &nbsp;If the payment method is invalid for a one off transaction, the proper way to change the Payment Method is to void the failed transaction and submit a new one. <strong>For updating a subscription's payment method, follow these instructions.&nbsp;</strong></li>
 </ol>
+<p style="text-align:right;"><em>Last reviewed: October 2026</em></p>
