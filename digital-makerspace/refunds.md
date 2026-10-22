@@ -19,7 +19,9 @@ If you believe you are owed a refund, email **contact@manchestermakerspace.org**
 ## Review your payment history
 
 1. Sign in to the member portal and open **My Profile** from the menu.
-2. Open the **Payment History** tab to see what you have paid, with dates and amounts.
+2. Open the **Payment History** tab. It lists the date, amount, description and status of each payment. **View Transaction** shows the details, **Filters** narrows the list, and **Download Table** saves it.
+
+![Payment History](/images/membership/payment-history.png){width=700px}
 
 Pending payments may take a short while to show as paid. For more on paying, see [Making Payments](/digital-makerspace/payments).
 
