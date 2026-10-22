@@ -12,6 +12,8 @@ dateCreated: 2022-11-14T16:10:21.746Z
 
 The following supplies are stocked by the Makerspace.
 
+> Rows marked "suggested" are not stocked yet. The Amazon links search for the item. Pick a specific product and replace the search link before ordering. TBD means the source, ordering and stock location have not been decided.
+
 | Item | Source | Auto-Order On? | Stock Location |
 | ---- | ------ | ----------- | -------------- |
 | Multifold paper towels (H2) | [Amazon](https://www.amazon.com/gp/product/B001AZKS4W) | Automatic to Thad every 2 months | Top Shelf of Locker Room |
@@ -27,11 +29,18 @@ The following supplies are stocked by the Makerspace.
 | Powdered Bleach (Comet) | [Amazon](https://www.amazon.com/Comet-Cleanser-21-Pack/dp/B07MZ7NWL9) | *Manual* | Lobby Cabinet |
 | Safety Glasses | [Amazon](https://www.amazon.com/BISON-LIFE-Glasses-Protective-Polycarbonate/dp/B01G9J08Q6) | *Manual* | Locker Room PPE |
 | Nitrile Gloves | Amazon - [Medium](https://www.amazon.com/Basic-Medical-Nitrile-Gloves-Medium/dp/B085JWF2KH), [Large](https://www.amazon.com/Basic-Medical-Nitrile-Gloves-Large/dp/B085HLHH51) | *Manual* | Locker Room PPE |
-| Dust Masks | 
-| Toilet Bowl Cleaner |
-| Dish Soap |
-| Hand Soap |
+| Dust Masks | [Amazon](https://www.amazon.com/s?k=n95+dust+masks+disposable) | TBD | TBD |
+| Toilet Bowl Cleaner | [Amazon](https://www.amazon.com/s?k=toilet+bowl+cleaner+commercial) | TBD | TBD |
+| Dish Soap | [Amazon](https://www.amazon.com/s?k=dish+soap+gallon+commercial) | TBD | TBD |
+| Hand Soap | [Amazon](https://www.amazon.com/s?k=hand+soap+refill+gallon) | TBD | TBD |
 | LED Tubes | [Amazon](https://www.amazon.com/dp/B074NWSY6J) | *Manual* | *Not Stocked* |
+| Oil-absorbent pads (spill cleanup) | [Amazon](https://www.amazon.com/s?k=oil+absorbent+pads+shop) | TBD | *Not Stocked* (suggested for Automotive) |
+| Used-oil drain containers | [Amazon](https://www.amazon.com/s?k=used+oil+drain+container+with+lid) | TBD | *Not Stocked* (suggested for Automotive) |
+| Shop towels / rags | [Amazon](https://www.amazon.com/s?k=shop+towels+red+box+of+rags) | TBD | *Not Stocked* (suggested) |
+| Hearing protection (ear plugs and muffs) | [Amazon](https://www.amazon.com/s?k=disposable+ear+plugs+bulk+and+ear+muffs) | TBD | *Not Stocked* (suggested for Locker Room PPE) |
+| First-aid refills | [Amazon](https://www.amazon.com/s?k=first+aid+kit+refill+supplies) | TBD | *Not Stocked* (suggested) |
+| Labeling tape and permanent markers (for "leave a note" project tags) | [Amazon](https://www.amazon.com/s?k=masking+tape+and+permanent+markers+bulk) | TBD | *Not Stocked* (suggested) |
+| Nitrile Gloves, X-Large | [Amazon](https://www.amazon.com/s?k=nitrile+gloves+extra+large) | TBD | *Not Stocked* (suggested for Locker Room PPE) |
 
 # Shop-Specific Supplies
 
