@@ -97,3 +97,5 @@ A revoked checkout requires admin or board reinstatement instead.
 The Reinstated filter is available in the authorized checkout management roster,
 not My Tool Checkouts. Use your Expired, Renewal history, Revoked, or All views
 to inspect your own checkout records.
+
+*Last reviewed: October 2026*

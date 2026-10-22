@@ -33,3 +33,5 @@ other members continue after a delivery failure. If a provider accepted a
 message but its acknowledgment was lost, retry can duplicate that message.
 Changing a checkout date starts a new notice cycle; assigning the same date does
 not. Setting Never removes the checkout from future expiry notice runs.
+
+*Last reviewed: October 2026*

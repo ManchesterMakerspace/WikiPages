@@ -129,3 +129,5 @@ checkouts are included; revoked and superseded history are excluded. Changes
 are audited. Date changes do not automatically cancel existing reservations;
 those bookings are revalidated when edited. Ordinary approvers cannot change
 expiration settings or dates.
+
+*Last reviewed: October 2026*

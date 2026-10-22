@@ -143,3 +143,5 @@ Members are billed through the type's billing plan. A type with no plan shows **
 - [Rent a Storage Space](/digital-makerspace/members/rent-a-space) (the member side)
 - [Billing options](/digital-makerspace/admin/billing-options)
 - [Storage Rentals](/rentals)
+
+*Last reviewed: October 2026*

@@ -89,3 +89,5 @@ Request announcements, the announcement channel, the users channel and the shop'
 - [Check out a member](/digital-makerspace/approvers/check-out-a-member)
 - [Troubleshooting: checkouts](/digital-makerspace/troubleshooting/checkouts)
 - [The /checkout command](/digital-makerspace/slack/checkout-command)
+
+*Last reviewed: October 2026*

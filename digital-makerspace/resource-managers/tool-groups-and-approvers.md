@@ -104,3 +104,5 @@ a tool to another group does not replace the checkout’s originating group.
 Each included tool’s **Checkouts expire after** policy determines its date.
 Expired checkouts no longer satisfy prerequisites or new approver volunteering
 eligibility, but expiration alone does not delete explicit approver assignments.
+
+*Last reviewed: October 2026*

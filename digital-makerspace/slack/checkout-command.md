@@ -99,3 +99,5 @@ a clickable **Checkout training plan** link when configured. **View my checkouts
 also includes expired checkouts and labels their expiration date. Expiration
 does not expose private tool notes through the old checkout. Use the Member
 Portal’s Expired filter and **Request renewal** to request another approval.
+
+*Last reviewed: October 2026*

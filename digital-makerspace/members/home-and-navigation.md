@@ -88,3 +88,5 @@ Board members, Resource Managers and admins see more menu items than members do,
 - [Log In](/digital-makerspace/log-in) and [Sign Up](/digital-makerspace/sign-up)
 - [Manage Membership](/digital-makerspace/manage-membership)
 - [Making Payments](/digital-makerspace/payments)
+
+*Last reviewed: October 2026*

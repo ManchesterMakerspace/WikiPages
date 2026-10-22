@@ -114,3 +114,5 @@ Please empty the space before the rental ends.
 
 - [Storage Rentals](/rentals) for what storage is for, and the carry-in, carry-out policy.
 - [Making payments](/digital-makerspace/payments)
+
+*Last reviewed: October 2026*

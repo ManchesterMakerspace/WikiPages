@@ -92,3 +92,5 @@ current Never/1–5-year policy, with dates valid through the displayed Eastern
 calendar day. Expiration is separate from revocation; use the existing admin/board
 reinstatement flow for unresolved revocations. Approver privileges alone do not
 allow editing a checkout’s expiration date.
+
+*Last reviewed: October 2026*

@@ -77,7 +77,7 @@ Manchester Makerspace is a member-run workshop. Members have 24/7 access with th
 
 ### Volunteering
 
-Volunteer activities help keep the makerspace running. They earn points. The [volunteer pages](/volunteer-credit) and [Open Improvement Projects and Bounties](/volunteer-credit/open-projects) are being updated.
+Members keep the makerspace running. Take on a bounty from the TVs or the portal, or join a monthly volunteer and cleanup day. See [Volunteering at the Makerspace](/volunteer-credit) and [Bounties](/volunteer-credit/open-projects).
 
 ---
 
@@ -110,3 +110,5 @@ The member portal's admin pages are listed on the [Digital Makerspace](/digital-
 | Review transactions | [Transactions](/digital-makerspace/admin/transactions) |
 | Send checkout expiration notices | [Checkout expiration notices](/digital-makerspace/admin/checkout-expiration-notices) |
 | Reinstate a revoked checkout | [Revoke a Checkout and Review the Checkout Roster](/digital-makerspace/approvers/revoke-a-checkout) |
+
+*Last reviewed: October 2026*

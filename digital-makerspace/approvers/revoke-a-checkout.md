@@ -90,3 +90,5 @@ The original revoked record stays in the roster, alongside the new active checko
 
 - [Check out a member](/digital-makerspace/approvers/check-out-a-member)
 - [Troubleshooting: checkouts](/digital-makerspace/troubleshooting/checkouts)
+
+*Last reviewed: October 2026*
