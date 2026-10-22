@@ -60,8 +60,8 @@ Open the menu with the three lines at the top right, next to your name.
 | **Scan NFC** | Reads a key fob or tag with your phone. Available on Android phones only. |
 | **Subscriptions** | Manage your membership subscription. See [Manage Membership](/digital-makerspace/manage-membership). |
 | **Payment Methods** | Add or remove a card or other payment method. |
-| **Fix Tickets** | Report something broken, and follow repairs. |
-| **Reservations** | Reserve a shop or tool. |
+| **Fix Tickets** | Report something broken, and follow repairs. See [Report a Problem](/digital-makerspace/members/report-a-problem). |
+| **Reservations** | Reserve a shop or tool. See [Reserve a Shop or Tool](/digital-makerspace/members/reserve-a-shop-or-tool). |
 | **Tool Checkouts** | Request a checkout and see what you are checked out on. See [Request a Tool Checkout](/digital-makerspace/members/request-a-checkout). |
 | **Workshops** | Each shop's page, with its tools, reservations and documentation. |
 | **Security** | Your password and second sign-in step. |

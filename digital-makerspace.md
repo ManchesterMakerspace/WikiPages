@@ -27,6 +27,7 @@ How-to articles for the member portal at members.manchestermakerspace.org, organ
 - [Rent a Storage Space](/digital-makerspace/members/rent-a-space)
 - [Request a Tool Checkout](/digital-makerspace/members/request-a-checkout)
 - [Reserve a Shop or Tool](/digital-makerspace/members/reserve-a-shop-or-tool)
+- [Report a Problem (Fix Tickets)](/digital-makerspace/members/report-a-problem)
 - [The /checkout Slack Command](/digital-makerspace/slack/checkout-command)
 - [Volunteering at the Makerspace](/volunteer-credit)
 - [Troubleshooting](/digital-makerspace/troubleshooting) and [Troubleshooting: Tool Checkouts](/digital-makerspace/troubleshooting/checkouts)
@@ -42,6 +43,7 @@ How-to articles for the member portal at members.manchestermakerspace.org, organ
 - [Add and Manage Tools and Shops](/digital-makerspace/resource-managers/tools-and-shops)
 - [Tool Groups and Checkout Approvers](/digital-makerspace/resource-managers/tool-groups-and-approvers)
 - [Manage Reservations](/digital-makerspace/resource-managers/reservations)
+- [Manage Fix Tickets](/digital-makerspace/resource-managers/fix-tickets)
 - [Managing Volunteer Tasks](/volunteer-credit/management)
 
 ## For the board and admins

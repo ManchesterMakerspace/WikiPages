@@ -52,6 +52,7 @@ Manchester Makerspace is a member-run workshop. Members have 24/7 access with th
 | Get checked out on a tool | [Request a Tool Checkout](/digital-makerspace/members/request-a-checkout) |
 | Request a checkout from Slack | [The /checkout Slack Command](/digital-makerspace/slack/checkout-command) |
 | Reserve a shop or tool | [Reserve a Shop or Tool](/digital-makerspace/members/reserve-a-shop-or-tool) |
+| Report something broken or missing | [Report a Problem (Fix Tickets)](/digital-makerspace/members/report-a-problem) |
 | Fix a checkout problem | [Troubleshooting: Tool Checkouts](/digital-makerspace/troubleshooting/checkouts) |
 | Learn about a shop and its tools | [Shops in Makerspace](/workshops), or pick one below |
 
@@ -94,6 +95,7 @@ Approvers sign members off on tools. Resource Managers (RMs) look after a shop a
 | Add or change a tool or shop, or print a sign | [Add and Manage Tools and Shops](/digital-makerspace/resource-managers/tools-and-shops) |
 | Set up tool groups and approvers | [Tool Groups and Checkout Approvers](/digital-makerspace/resource-managers/tool-groups-and-approvers) |
 | Set up reservations and approve requests | [Manage Reservations](/digital-makerspace/resource-managers/reservations) |
+| Work on fix tickets and make bounties | [Manage Fix Tickets](/digital-makerspace/resource-managers/fix-tickets) |
 | Approve checkouts from Slack | [The /checkout Slack Command](/digital-makerspace/slack/checkout-command) |
 | Fix a checkout problem | [Troubleshooting: Tool Checkouts](/digital-makerspace/troubleshooting/checkouts) |
 
