@@ -93,3 +93,5 @@ Ownerships of plastic supply companies have changed up recently. If anyone has s
 In addition to alloy, you may need to pay attention to the temper (e.g. -T6, -O, -N, -A) and cold-work state (e.g. -H32) if applicable.
  
 φ
+
+*Last reviewed: October 2026*

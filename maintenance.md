@@ -31,7 +31,7 @@ The following supplies are stocked by the Makerspace.
 | Toilet Bowl Cleaner |
 | Dish Soap |
 | Hand Soap |
-| LED Tubes | [Amazon](https://smile.amazon.com/dp/B074NWSY6J/ref=cm_sw_r_apa_i_3R38T9JHZFSV5TKX5YEB_0) | *Manual* | *Not Stocked* |
+| LED Tubes | [Amazon](https://www.amazon.com/dp/B074NWSY6J) | *Manual* | *Not Stocked* |
 
 # Shop-Specific Supplies
 
@@ -71,3 +71,5 @@ Preferred items for shops
 - Cleaning supplies
   
 We also have an [Amazon Wishlist](https://www.amazon.com/hz/wishlist/genericItemsPage/RB06Y5US8KJL?ref_=wl_share) but it isn't always up-to-date, and not everything is on Amazon (or worth buying from there).
+
+*Last reviewed: October 2026*
