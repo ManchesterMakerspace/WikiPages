@@ -1,6 +1,6 @@
 ---
 title: Managing Volunteer Tasks
-description: For admins, board members and Resource Managers: create bounty tasks and events, review and award volunteer points, and fix mistakes.
+description: "For admins, board members and Resource Managers: create bounty tasks and events, review and award volunteer points, and fix mistakes."
 published: true
 date: 2026-10-22T16:00:00.000Z
 tags: volunteer, admin, bounties, events
