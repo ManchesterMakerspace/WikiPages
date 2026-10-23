@@ -55,7 +55,7 @@ Open the menu with the three lines at the top right, next to your name.
 | Menu item | What it does |
 | --- | --- |
 | **Home** | This page. |
-| **My Profile** | Your profile, with tabs for **Dues**, **Rentals**, **Checkouts**, **Reservations**, **Payment History**, **Volunteer** and **Check-in Activity**. Your rentals are covered in [Rent a Storage Space](/digital-makerspace/members/rent-a-space). |
+| **My Profile** | Your profile, with tabs for **Dues**, **Rentals**, **Checkouts**, **Reservations**, **Payment History**, **Volunteer** and **Check-in Activity** (see [Check-In Activity](/digital-makerspace/members/check-in-activity)). Your rentals are covered in [Rent a Storage Space](/digital-makerspace/members/rent-a-space). |
 | **Scan QR** | Opens your camera to read a QR code on a tool or rental space and jump to its page. Allow camera access when asked. Scanning only opens the page: it never submits a request or payment. |
 | **Scan NFC** | Reads a key fob or tag with your phone. Available on Android phones only. |
 | **Subscriptions** | Manage your membership subscription. See [Manage Membership](/digital-makerspace/manage-membership). |

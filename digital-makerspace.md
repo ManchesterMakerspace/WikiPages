@@ -28,6 +28,7 @@ How-to articles for the member portal at members.manchestermakerspace.org, organ
 - [Request a Tool Checkout](/digital-makerspace/members/request-a-checkout)
 - [Reserve a Shop or Tool](/digital-makerspace/members/reserve-a-shop-or-tool)
 - [Report a Problem (Fix Tickets)](/digital-makerspace/members/report-a-problem)
+- [Check-In Activity](/digital-makerspace/members/check-in-activity)
 - [The /checkout Slack Command](/digital-makerspace/slack/checkout-command)
 - [Volunteering at the Makerspace](/volunteer-credit)
 - [Troubleshooting](/digital-makerspace/troubleshooting) and [Troubleshooting: Tool Checkouts](/digital-makerspace/troubleshooting/checkouts)
