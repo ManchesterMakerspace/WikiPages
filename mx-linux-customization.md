@@ -47,6 +47,6 @@ sudo apt-get install sublime-text
 ```
 
 
-## Hardware Thad Likes
+## Preferred Hardware
 Keyboard: Lenovo Preferred Pro
 Mouse: Logitech M510

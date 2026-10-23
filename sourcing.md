@@ -32,7 +32,7 @@ dateCreated: 2021-02-16T19:46:59.828Z
 You might be suprised what you can get off of **eBay**, and **flea markets**.
 
 # Where We're Not So Sure
-Ownerships of plastic supply companies have changed up recently. If anyone has sourced plastic lately, we'd like to know where's best. Thad would love to find somewhere that stocks PETG.
+Ownerships of plastic supply companies have changed up recently. If anyone has sourced plastic lately, we'd like to know where's best. We would love to find somewhere that stocks PETG.
 
 # Tool Reccomendations
 
