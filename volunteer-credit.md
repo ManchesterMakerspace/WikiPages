@@ -1,6 +1,6 @@
 ---
 title: Volunteering at the Makerspace
-description: How members help keep the makerspace running: bounties, monthly volunteer and cleanup days, and ongoing jobs.
+description: "How members help keep the makerspace running: bounties, monthly volunteer and cleanup days, and ongoing jobs."
 published: true
 date: 2026-10-21T16:00:00.000Z
 tags: volunteer, bounties, cleanup

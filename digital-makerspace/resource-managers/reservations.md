@@ -1,6 +1,6 @@
 ---
 title: Manage Reservations
-description: For Resource Managers, board members and admins: set up what can be reserved, approve requests, add blackout periods, and use the Slack and calendar tools.
+description: "For Resource Managers, board members and admins: set up what can be reserved, approve requests, add blackout periods, and use the Slack and calendar tools."
 published: true
 date: 2026-10-21T20:00:00.000Z
 tags: portal, reservations, resource-managers, admin, slack

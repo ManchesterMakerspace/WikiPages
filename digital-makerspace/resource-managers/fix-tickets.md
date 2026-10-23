@@ -1,6 +1,6 @@
 ---
 title: Manage Fix Tickets
-description: For Resource Managers, board members and admins: work through fix tickets, change status, assign people, publish a ticket as a bounty, and handle reporter privacy.
+description: "For Resource Managers, board members and admins: work through fix tickets, change status, assign people, publish a ticket as a bounty, and handle reporter privacy."
 published: true
 date: 2026-10-21T21:00:00.000Z
 tags: portal, fix-tickets, repairs, resource-managers, admin

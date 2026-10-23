@@ -1,6 +1,6 @@
 ---
 title: Sign Up
-description: How to join the Makerspace: create your account, sign the agreements, choose a membership and pay, then get your orientation and key fob.
+description: "How to join the Makerspace: create your account, sign the agreements, choose a membership and pay, then get your orientation and key fob."
 published: true
 date: 2026-10-21T18:00:00.000Z
 tags: portal, signup, members

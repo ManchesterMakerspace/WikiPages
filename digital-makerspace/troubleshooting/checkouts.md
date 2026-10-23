@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting: Tool Checkouts
+title: "Troubleshooting: Tool Checkouts"
 description: Fixes for common tool checkout problems, for members, approvers, board and admins.
 published: true
 date: 2026-10-16T01:33:11.499Z
