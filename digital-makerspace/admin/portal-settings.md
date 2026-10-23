@@ -27,7 +27,7 @@ To change a text value, choose the pencil beside it, type the new value and choo
   - **Fix Tickets Channel:** where new and updated repair tickets are announced. Saving it blank turns announcements off.
   - **Volunteer Pending Channel:** notified when a volunteer task is waiting for review.
 - **Slack Channel Cache:** shows how many public channels are cached and when the cache last updated. **Clear and Rebuild Cache** refreshes it. Use it if a new channel is not being found.
-- **Slack User Sync:** **Enable Scheduled Sync** and **Enable Scheduled Profile Sync** are switches. **Run Now** matches the Slack workspace's users to members by email, which is useful after onboarding a batch of new members. **Resolve Slack Conflicts** opens the screen for members whose Slack account does not match.
+- **Slack User Sync:** **Enable Scheduled Sync** and **Enable Scheduled Profile Sync** are switches. **Run Now** matches the Slack workspace's users to members by email, which is useful after onboarding a batch of new members. **Resolve Slack Conflicts** opens the screen for members whose Slack account does not match. See [Slack Identity Conflicts](/digital-makerspace/admin/slack-identity-conflicts).
 
 ## Volunteer
 

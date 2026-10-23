@@ -58,6 +58,8 @@ How-to articles for the member portal at members.manchestermakerspace.org, organ
 - [Audit Log](/digital-makerspace/admin/audit-log)
 - [Portal Settings](/digital-makerspace/admin/portal-settings)
 - [Analytics](/digital-makerspace/admin/analytics)
+- [Shop Fees](/digital-makerspace/admin/shop-fees)
+- [Slack Identity Conflicts](/digital-makerspace/admin/slack-identity-conflicts)
 - [Partner Discounts](/partnerships/partner-discounts)
 - [Managing Volunteer Tasks](/volunteer-credit/management)
 
