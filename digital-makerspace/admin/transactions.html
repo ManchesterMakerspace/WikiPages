@@ -9,42 +9,39 @@ dateCreated: 2019-09-26T12:05:50.422Z
 -->
 
 <h1>Transactions</h1>
-<h6>Transactions can be reviewed as a whole from Billing Central or on a per-member basis in the member’s profile. In the event of any issues with the software, you may <a href="https://www.braintreegateway.com/login">log into Braintree</a> to take similar actions.</h6>
-<p>&nbsp;</p>
-<h2>View and refund any transaction from Billing Central</h2><p>You can narrow the list with <strong>Filters</strong> and save it with <strong>Download Table</strong>. The <strong>Refunds Pending</strong> count at the top of Billing Central shows refund requests waiting for review.</p>
+<p>You can review transactions for everyone from Billing Central, or for one member from their profile. If the portal has any problem, you can log into <a href="https://www.braintreegateway.com/login">Braintree</a> and do the same task there.</p>
+<h2>View and refund any transaction from Billing Central</h2>
 <ol>
-  <li>Login as an admin user and navigate to Billing Central, using the “Billing” option from the upper right hamburger menu</li>
-  <li>Select the “Transactions” tab to view the transactions table.</li>
-  <li>Transactions are filterable by date and by member as indicated in the image below</li>
-  <li>To refund a transaction, select the row, click “Refund Transaction” button and accept the prompt. <strong>NOTE: Only Paid transactions can be refunded. Pending transactions can be voided through Braintree as described below.</strong></li>
+  <li>Sign in as an admin or board member, choose <strong>Billing</strong> from the portal menu, and open the <strong>Transactions</strong> tab.</li>
+  <li>Use <strong>Filters</strong> to narrow the list. You can filter by amount (minimum and maximum), the number of transactions returned, the type (<strong>Sale</strong>, <strong>Credit</strong> or both), whether it was refunded, the start and end dates, the status, and the discount used. <strong>Download Table</strong> saves the list.</li>
+  <li>To refund one, tick the row, click <strong>Refund Transaction</strong>, and confirm. The box shows the date and amount so you can check it. <strong>Only transactions that are paid (settled) can be refunded.</strong> A pending transaction can be voided in Braintree, as below.</li>
 </ol>
-<h2>View and refund a member’s transaction from their profile</h2>
+<p>The <strong>Refunds Pending</strong> count at the top of Billing Central shows refund requests members have made and that are waiting for review.</p>
+<h2>View and refund one member's transactions</h2>
 <ol>
-  <li>Login as a admin user and navigate to a member’s profile, then select “Payment History” to view their transactions</li>
-  <li>These transactions are also filterable by date.</li>
-  <li>Select a transaction to refund, click “Refund Transaction” button and accept the prompt. <strong>NOTE: Only Paid transactions can be refunded. &nbsp;Pending transactions can be voided through Braintree as described below.</strong></li>
+  <li>Open the member's profile and choose the <strong>Payment History</strong> tab.</li>
+  <li>The same filters, <strong>Download Table</strong> and <strong>View Transaction</strong> are there.</li>
+  <li>Tick the transaction, click <strong>Refund Transaction</strong>, and confirm.</li>
 </ol>
-<h2><strong>Voiding a transaction</strong></h2>
-<p>If a member has just made a payment and realized it was in error, the transaction can be voided from our side before it clears. &nbsp;Once a payment clears ("settled"), one must use the refund process described above.&nbsp;</p>
+<p>Members can ask for a refund themselves from their own Payment History. Refunds are generally not given. See <a href="/digital-makerspace/refunds">Payment History and Refunds</a>.</p>
+<h2>Void a transaction</h2>
+<p>If a member has just paid by mistake, you can void the transaction before it settles. Once it has settled, use a refund instead.</p>
 <ol>
-  <li><a href="https://braintreegateway.com">Login to Braintree Gateway</a> using the Makerspace PayPal credentials.</li>
-  <li>Navigate to "Transactions" by clicking the associated link in the header.</li>
-  <li>Search for the transaction you would like to void. You can see all transactions that can be voided by limiting the Status property of search to "Authorized", "Submitted For Settlement", and "Settlement Pending".</li>
-  <li>In the resulting search table, click the associated transaction ID to view the transaction details.</li>
-  <li>Click the red "Void" button in the upper left hand corner to void the transaction.</li>
+  <li>Log into <a href="https://braintreegateway.com">Braintree Gateway</a> with the makerspace's Braintree login.</li>
+  <li>Open <strong>Transactions</strong> from the header.</li>
+  <li>Search for the transaction. To see everything that can be voided, set the Status filter to “Authorized”, “Submitted For Settlement” and “Settlement Pending”.</li>
+  <li>Click the transaction ID to see its details.</li>
+  <li>Click the red <strong>Void</strong> button at the top left.</li>
 </ol>
-<h2>Failed Transactions</h2>
-<p>When we receive a transaction, we will get a Slack notification in the members relations Slack channel (set in Portal Settings; the default is <code>members_relations</code>) regardless of success or failure. The related member will also receive a Slack notification privately. In the event of a failure, the reason for failure will also be included in the message. If you are unsure what this failure status means, you can <a href="https://developers.braintreepayments.com/reference/general/statuses#transaction">review all transaction status definitions here</a>. Details regarding how to handle failed <strong>Subscription</strong> payments may be found here. If you are worried about how many transactions get declined, please note the industry standard is about 10%.</p>
-<h3>Manually Retry Transactions</h3>
+<h2>Failed transactions</h2>
+<p>Every transaction, successful or not, is announced in the members relations Slack channel (set in Portal Settings; the default is <code>members_relations</code>). The member also gets a private Slack message. For a failure, the message includes the reason. If you are unsure what a status means, see the <a href="https://developers.braintreepayments.com/reference/general/statuses">Braintree transaction status definitions</a>.</p>
+<h2>Retry a failed payment</h2>
 <ol>
-  <li><a href="https://braintreegateway.com">Login to Braintree Gateway</a> using the Makerspace PayPal credentials.</li>
-  <li>Navigate to "Subscriptions" by clicking the associated link in the header.</li>
-  <li>Search for the subscription you would like to retry. You can see all subscriptions that can be retried by limiting the Status property of search to "past due".</li>
-  <li>In the resulting search table, click the "Retry" link in the right side of the table.</li>
-  <li>Verify the transaction details and create a new transaction.</li>
+  <li>Log into <a href="https://braintreegateway.com">Braintree Gateway</a>.</li>
+  <li>Open <strong>Subscriptions</strong> from the header and search for the subscription, with the Status filter on “Past Due”.</li>
+  <li>Click <strong>Retry</strong> on the right side of the row.</li>
+  <li>Check the details and create a new transaction.</li>
 </ol>
-<h3>Changing Payment Method</h3>
-<ol>
-  <li>Payment methods cannot be changed for failed transactions <strong>unless it is a failed subscription transaction.</strong> &nbsp;If the payment method is invalid for a one off transaction, the proper way to change the Payment Method is to void the failed transaction and submit a new one. <strong>For updating a subscription's payment method, follow these instructions.&nbsp;</strong></li>
-</ol>
+<h2>Change the payment method</h2>
+<p>You cannot change the payment method on a failed one-time transaction. Void the failed transaction and create a new one. For a failed subscription payment, the member changes the subscription's payment method. See <a href="/digital-makerspace/manage-membership">Manage Membership</a>.</p>
 <p style="text-align:right;"><em>Last reviewed: October 2026</em></p>

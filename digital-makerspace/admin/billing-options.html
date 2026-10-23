@@ -8,15 +8,48 @@ editor: undefined
 dateCreated: 2019-09-26T12:04:45.111Z
 -->
 
-<h1>Billing Options</h1><p>Billing Options are how members pay for things. Think of them as pre-made invoices that they can choose from to pay for things such as memberships or rentals. <strong>It is highly suggested to only create Billing Options attached to Billing Plans.</strong> Billing Plans are created in Braintree and result in recurring subscription payments</p>
+<h1>Billing Options</h1>
+<p>Billing Options are how members pay for things. Think of them as pre-made invoices that members can choose from, such as a membership term or a rental. Options that are attached to a <strong>Billing Plan</strong> create recurring subscription payments. Billing Plans are created in Braintree, so it is strongly suggested that you only create Billing Options that are attached to a plan.</p>
 <h2>Billing Central</h2>
-<p>Open Billing Central from the portal menu by choosing <strong>Billing</strong>. The top of the page shows counts: number of members, new members in the prior 30 days, members on a subscription, members with payment methods expiring this month, past due invoices, and refunds pending. Below are four tabs:</p>
+<p>Open Billing Central from the portal menu by choosing <strong>Billing</strong>. Only admins and board members see it. The top of the page shows counts: number of members, new members in the prior 30 days, members on a subscription, members with payment methods expiring this month, past due invoices, and refunds pending. Below are four tabs:</p>
 <ul>
   <li><strong>Billing Options</strong>: the options members choose from (this page).</li>
   <li><strong>Subscriptions</strong>: see and cancel subscriptions. See <a href="/digital-makerspace/admin/subscriptions">Subscriptions</a>.</li>
   <li><strong>Transactions</strong>: review and refund payments. See <a href="/digital-makerspace/admin/transactions">Transactions</a>.</li>
-  <li><strong>Outstanding Invoices / Dues</strong>: everything currently owed, with <strong>Create New Invoice</strong>, <strong>Delete Invoice</strong>, <strong>Filters</strong> and a <strong>View</strong> button on each row.</li>
+  <li><strong>Outstanding Invoices / Dues</strong>: everything currently owed. See below.</li>
 </ul>
-<p>Rental billing options are chosen per rental type. See <a href="/digital-makerspace/admin/rentals">Rental Management</a>.</p>
-<h2>Creating a membership option:</h2><ol><li>Membership options are available when a member signs up or changes their subscription in Account Settings.</li><li><a href="https://www.braintreegateway.com/login">Login to Braintree</a> using the “Login with PayPal” option</li><li>Select “Subscriptions” from the top navigation and “Plans” underneath once Subscriptions loads</li><li>Click the New Plan button to open the create form</li><li>Fill out the Plan ID as a series of hyphenated words - <strong>IMPORTANT: Include “membership” in the ID (eg monthly-membership-subscription)</strong></li><li>Fill out the rest of the details including payment and billing cycle then click create. Next time you open the Billing Option form, this will be available.</li><li>To create a discount for this plan, select AddOns/Discounts from the subnavigation, next to Subscriptions</li><li>Click “New Discount” at the bottom left of the page and fill out the amount details. <strong>IMPORTANT: Include “membership” in the ID (eg monthly-membership-discount)</strong></li><li>Login to the digital makerspace as an admin user and navigate to Billing Central, using the “Billing” option from the upper right hamburger menu</li><li>Select the “Billing Options” tab to view the billing options table.</li><li>Click the blue “Create Billing Option” in the upper left hand corner to open the create form.</li><li>Select the plan you created from the plan dropdown and same for discount. The rest of the fields will fill in for you. The “Disable Invoice Option” button is to prevent this plan from being available to members and is a good way to create many options at once and then enabling them all together.</li><li>Submit the form. If accepted, will be immediately available to members, unless “Disable Invoice Option” described above was selected.</li></ol><h2>Creating a rental option:</h2><p>Follow the same instructions as above, but use “rental” in all IDs when creating items in Braintree (eg quarterly-locker-rental-subscription). You will also need to switch to the Rental option when you first open the Billing Option form.</p><h2>Editing a billing option:</h2><p>Billing options can be edited by selecting a row and clicking “Edit Billing Option”. When the form is accepted, the edited billing option will display in the table. <strong>Note: Editing a billing option does not affect already active subscription.</strong></p><h2>Deleting a billing option:</h2><p>Billing options can be deleted by selecting a row and clicking “Delete Billing Option”. Upon submitting the dialog, the billing option will be removed from the table. <strong>Note: Deleting a billing option does not affect already active subscription.</strong></p>
+<h2>The Billing Options tab</h2>
+<p>The table lists each option with its name, description, billing frequency (in months), amount, whether it is disabled, and whether it carries a promotion. Tick a row to enable <strong>Edit Billing Option</strong> and <strong>Delete Billing Option</strong>. <strong>Create Billing Option</strong> is always available.</p>
+<p>Members see membership options when they <a href="/digital-makerspace/sign-up">sign up</a> or change their subscription in their <a href="/digital-makerspace/manage-membership">account settings</a>. Rental options are chosen per rental type. See <a href="/digital-makerspace/admin/rentals">Rental Management</a>.</p>
+<h2>Create a billing option</h2>
+<h3>Step 1: make the plan in Braintree (only if it does not exist yet)</h3>
+<ol>
+  <li>Log in to <a href="https://www.braintreegateway.com/login">Braintree</a> using the “Login with PayPal” option.</li>
+  <li>Select “Subscriptions” from the top navigation and “Plans” underneath once Subscriptions loads.</li>
+  <li>Click the <strong>New Plan</strong> button to open the create form.</li>
+  <li>Fill out the Plan ID as a series of hyphenated words. <strong>Important:</strong> include “membership” in the ID of a membership plan (for example monthly-membership-subscription), or “rental” in the ID of a rental plan (for example quarterly-locker-rental-subscription).</li>
+  <li>Fill out the rest of the details, including payment and billing cycle, then click create. The next time you open the Billing Option form, the plan is in the list.</li>
+  <li>To create a discount for the plan, select AddOns/Discounts from the sub-navigation next to Subscriptions, click “New Discount” at the bottom left, and fill out the amount. <strong>Important:</strong> include “membership” in the discount ID (for example monthly-membership-discount).</li>
+</ol>
+<h3>Step 2: create the option in the portal</h3>
+<ol>
+  <li>Open Billing Central and the <strong>Billing Options</strong> tab, then click <strong>Create Billing Option</strong>.</li>
+  <li>Choose the <strong>Type</strong>: <strong>Membership</strong> or <strong>Rental</strong>.</li>
+  <li>Choose the <strong>Billing Plan (optional)</strong> from the list of Braintree plans of that type. If it offers a discount, choose it under <strong>Subscription 10% Discount (optional)</strong>.</li>
+  <li>Fill out the <strong>Name</strong>, <strong>Description</strong>, <strong>Amount ($)</strong> and <strong>Length (months)</strong>. Check every field before you save.</li>
+  <li><strong>Disable Invoice Option</strong> keeps the option from being offered to members. It is a good way to create several options and then enable them together.</li>
+  <li>Use <strong>Expiration Date</strong> only if the option should stop being offered on a date.</li>
+  <li>Click <strong>Save</strong>. The option is available to members straight away, unless you disabled it.</li>
+</ol>
+<figure class="image"><img src="/images/billing/create-billing-option.png" style="width:450px;"></figure>
+<h2>Edit or delete a billing option</h2>
+<p>Tick the row and click <strong>Edit Billing Option</strong> to change it, or <strong>Delete Billing Option</strong> and confirm. The delete box shows the name, description and amount so you can check you have the right one. Editing or deleting an option does not change subscriptions that are already active.</p>
+<h2>Outstanding Invoices / Dues</h2>
+<p>This tab lists everything members currently owe, with the member, the type, the due date, the amount and the status. Use <strong>Filters</strong> to narrow the list.</p>
+<ul>
+  <li><strong>View</strong> shows an invoice's details. <strong>Mark as Paid</strong> settles it without a payment through the portal. You are asked to confirm.</li>
+  <li><strong>Delete Invoice</strong> removes the invoice you ticked. The box shows the member, description, amount and due date to confirm.</li>
+  <li>To create an invoice, open the member's profile and use <strong>Create New Invoice</strong> on the <strong>Dues</strong> tab. Choose <strong>Membership</strong> or <strong>Rental</strong>, the <strong>Billing Option</strong>, and tick <strong>Apply Discount</strong> if it applies, then click <strong>Save</strong>.</li>
+</ul>
+<figure class="image"><img src="/images/billing/create-invoice.png" style="width:450px;"></figure>
 <p style="text-align:right;"><em>Last reviewed: October 2026</em></p>
