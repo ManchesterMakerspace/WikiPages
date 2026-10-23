@@ -56,6 +56,7 @@ How-to articles for the member portal at members.manchestermakerspace.org, organ
 - [Checkout expiration notices](/digital-makerspace/admin/checkout-expiration-notices)
 - [Earned Memberships](/digital-makerspace/admin/earned-memberships)
 - [Audit Log](/digital-makerspace/admin/audit-log)
+- [Portal Settings](/digital-makerspace/admin/portal-settings)
 - [Partner Discounts](/partnerships/partner-discounts)
 - [Managing Volunteer Tasks](/volunteer-credit/management)
 
