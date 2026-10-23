@@ -43,7 +43,7 @@ Manchester Makerspace is a member-run workshop. Members have 24/7 access with th
 | Sign in or reset my password | [Log In](/digital-makerspace/log-in) |
 | Start, change or end my membership | [Manage Membership](/digital-makerspace/manage-membership) |
 | Pay dues or an invoice | [Making Payments](/digital-makerspace/payments) |
-| See what I paid, or ask for a refund | [View Payment History or Request Refunds](/digital-makerspace/refunds) |
+| See what I paid, or what to do about a refund | [View Payment History or Request Refunds](/digital-makerspace/refunds) |
 
 ### Tools and shops
 
