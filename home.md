@@ -113,6 +113,7 @@ The member portal's admin pages are listed on the [Digital Makerspace](/digital-
 | Manage subscriptions | [Subscriptions](/digital-makerspace/admin/subscriptions) |
 | Review transactions | [Transactions](/digital-makerspace/admin/transactions) |
 | Send checkout expiration notices | [Checkout expiration notices](/digital-makerspace/admin/checkout-expiration-notices) |
+| Set up and manage earned memberships | [Earned Memberships](/digital-makerspace/admin/earned-memberships) |
 | Reinstate a revoked checkout | [Revoke a Checkout and Review the Checkout Roster](/digital-makerspace/approvers/revoke-a-checkout) |
 
 *Last reviewed: October 2026*
