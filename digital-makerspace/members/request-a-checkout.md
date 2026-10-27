@@ -1,6 +1,6 @@
 ---
 title: Request a Tool Checkout
-description: How members request a tool checkout, by QR code or through the member portal.
+description: How members request a tool checkout, by QR code, through the member portal, or in Slack.
 published: true
 date: 2026-10-16T01:33:11.499Z
 tags: portal, checkout, members
@@ -23,13 +23,15 @@ You can request a checkout when all of these are true:
 - You do not already have a checkout for that tool, and you do not already have an open request for it.
 - The tool and its shop are available (not disabled or hidden).
 
-The tool list in the portal only shows tools you can request right now, so if a tool is missing, see [Troubleshooting: checkouts](/digital-makerspace/troubleshooting/checkouts).
+The **Available Tools** list in the portal leaves out tools you are already checked out on, tools that need no checkout, hidden tools and shops, and tools whose checkout was revoked. While your membership is still pending, it only lists tools that are open to pending members. Tools you cannot request yet are still listed, with **Missing Prereq** or **Request Pending** in the **Status** column. If a tool is missing, see [Troubleshooting: checkouts](/digital-makerspace/troubleshooting/checkouts).
 
 ## Ask for a checkout
 
-### Option 1. Scan the QR code on the tool
+### Option 1. Scan a QR code
 
-1. On your phone, scan the **Checkout Required** sign on the tool.
+1. On your phone, scan the **Checkout Required** sign on the tool, or the QR code for the shop.
+   - A tool's sign opens the tool's page.
+   - A shop's QR code opens the shop's page. It lists the shop's tools and says *To request checkout, click the link for the tool below.* Tap the tool you want, and its page opens.
 2. On the tool's page, tap **Request checkout**.
 3. Sign in to the member portal if you are asked to. You land on a page titled **Request checkout** showing the tool.
 4. If you cannot request this tool yet, a blue message explains why (for example, a prerequisite checkout is missing). Otherwise tap **Request checkout**. A box titled *Request Checkout: (tool name)* opens.
@@ -72,10 +74,6 @@ You get a Slack message with the approver's reason. A decline does not block you
 
 Open **Tool Checkouts** > **My Checkouts**. It is titled **My Active Tool Checkouts** and lists everything you are checked out on. Use **Filter by Shop** to narrow it down. In Slack, `/checkout active` lists your active checkouts in the current shop channel, and `/checkout active all` lists them across shops.
 
-## Need help?
-
-See [Troubleshooting: checkouts](/digital-makerspace/troubleshooting/checkouts).
-
 ## Training plans and renewing an expired checkout
 
 If a tool or group has a training plan, select **Checkout training plan** before
@@ -97,5 +95,9 @@ A revoked checkout requires admin or board reinstatement instead.
 The Reinstated filter is available in the authorized checkout management roster,
 not My Tool Checkouts. Use your Expired, Renewal history, Revoked, or All views
 to inspect your own checkout records.
+
+## Need help?
+
+See [Troubleshooting: checkouts](/digital-makerspace/troubleshooting/checkouts).
 
 *Last reviewed: October 2026*

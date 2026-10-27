@@ -46,7 +46,9 @@ The tool or its shop is turned off, hidden or out of service for now. Ask the sh
 
 ### A tool is missing from the list
 
-The list only shows tools you can request right now. A tool will not appear if it needs no checkout, you are already checked out or have an open request for it, you have not completed a prerequisite, or your membership is not active.
+The **Available Tools** list leaves out a tool if it needs no checkout, you are already checked out on it, your checkout for it was revoked, or the tool or its shop is hidden. While your membership is still pending, only tools open to pending members are listed.
+
+A tool you cannot request yet is still listed. **Missing Prereq** in the **Status** column means a prerequisite checkout is missing (the **Prerequisites** column names it), and **Request Pending** means you have already asked. If your membership is not active, the list does not load at all and you see the membership message described above.
 
 ### My request is taking a long time
 
