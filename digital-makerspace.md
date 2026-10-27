@@ -30,6 +30,8 @@ How-to articles for the member portal at members.manchestermakerspace.org, organ
 - [Report a Problem (Fix Tickets)](/digital-makerspace/members/report-a-problem)
 - [Check-In Activity](/digital-makerspace/members/check-in-activity)
 - [The /checkout Slack Command](/digital-makerspace/slack/checkout-command)
+- [Reservation Checkout Expiration in Slack](/digital-makerspace/slack/reservation-checkout-expiration)
+- [Fix Ticket Notifications in Slack](/digital-makerspace/slack/fix-ticket-notifications)
 - [Volunteering at the Makerspace](/volunteer-credit)
 - [Troubleshooting](/digital-makerspace/troubleshooting) and [Troubleshooting: Tool Checkouts](/digital-makerspace/troubleshooting/checkouts)
 

@@ -34,4 +34,6 @@ message but its acknowledgment was lost, retry can duplicate that message.
 Changing a checkout date starts a new notice cycle; assigning the same date does
 not. Setting Never removes the checkout from future expiry notice runs.
 
+**Shop checkout rosters.** After the notice scan, the job also rebuilds the Slack checkout roster for each shop that has newly expired checkouts, even when member notices could not be sent. The rebuilds run in the background. If Slack was down or a rebuild kept failing, run **Checkout Expiration Notices** again: it retries only the rosters that were not published yet. The first run also rebuilds rosters that were earlier marked done when the rebuild had only been queued, not finished.
+
 *Last reviewed: October 2026*

@@ -81,6 +81,8 @@ Please cancel a booking you will not use so someone else can have the time. If y
 2. A box opens. Fill in the title, choose the whole shop or tools, and set the date, start time and duration.
 3. Submit. Problems appear in the box so you can fix them. When it works you get a message that says whether the booking is approved, pending or unpaid.
 
+If a checkout you need expires before your booking would end, see [Reservation Checkout Expiration in Slack](/digital-makerspace/slack/reservation-checkout-expiration).
+
 Slack sends a reminder before an approved booking. If it starts 6 to 47 hours away you are reminded 30 minutes before. If it starts more than 47 hours away you are reminded 8 hours before. Reservations starting in under 6 hours get no reminder.
 
 Some shops show "Today's reservations" and "Tomorrow's reservations" in their Slack channel so you can see who has the shop. Ask the Resource Manager if you want that for your shop.
