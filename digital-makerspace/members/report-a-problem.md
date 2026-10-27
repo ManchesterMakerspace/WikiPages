@@ -59,13 +59,13 @@ Open a ticket to see its details and history.
 | **Unverified**, **Confirmed**, **Could not confirm** | Whether someone has checked the problem is real. |
 | **Private** or **Public** | Whether other members can read it. |
 
-On your own ticket you can choose **Add Note** to add information or answer a question (at least two characters), or **Withdraw** to take it back. If Slack is linked to your account you also get a message when something changes.
+On your own ticket you can choose **Add Note** to add information or answer a question (at least two characters), or **Withdraw** to take it back. If Slack is linked to your account you also get a message when something changes. See [Fix Ticket Notifications in Slack](/digital-makerspace/slack/fix-ticket-notifications).
 
 ## Use Slack
 
 Type these in any Slack channel. The answers are private to you.
 
-- **/fix new** opens the report form. In a shop's channel it fills in that shop for you.
+- **/fix new** opens the report form. **Shop (optional)** is a dropdown of every shop that is not hidden, in alphabetical order, with **No Shop Selected** first. In a shop's own channel that shop is already selected; anywhere else, **No Shop Selected** is. You can change it, including choosing no shop. Picking a tool from the list still uses that tool's shop.
 - **/fix mine** lists your reports.
 - **/fix public** lists public tickets.
 - **/fix 2** opens ticket number 2.
@@ -81,7 +81,7 @@ If you want to help, look at the volunteer bounties. Staff can turn a ticket int
 | --- | --- |
 | The Title is rejected | Use only letters, numbers, spaces and . , _ ( ) / - . |
 | You cannot submit a report | You may have reached your limit of open reports, or a required field is empty. |
-| You cannot choose a shop or tool | Some are hidden from members. Describe the problem in the Description instead. |
+| You cannot choose a shop or tool | The Slack report form lists every shop that is not hidden, without a search. If the Shop list says "Nothing could be found", close the form and type **/fix new** again. If your shop is hidden or none applies, leave **No Shop Selected** and say where the problem is in **Description**. Some tools are hidden from members too. |
 | Nobody has answered | Add a note, or ask in the shop's Slack channel. |
 
 More help: [Troubleshooting](/digital-makerspace/troubleshooting).
