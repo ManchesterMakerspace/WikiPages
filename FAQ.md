@@ -28,6 +28,9 @@ Members have 24/7 access with their key fob. Open house is on Mondays from 6 to 
 **How do I pay my dues?**
 See [Making Payments](/digital-makerspace/payments). A subscription renews automatically.
 
+**Why is my payment date before my membership expires?**
+Your payment date is set the day you pay, and your membership starts when your key fob is registered, a few days later. Each payment adds a billing period, usually a month, to the end of your term, so you are paid up a few days ahead. You do not lose any time. See [Sign Up](/digital-makerspace/sign-up#why-your-payment-date-and-expiration-date-can-differ).
+
 **How do I stop my membership?**
 Cancel your subscription before the renewal date. See [Manage Membership](/digital-makerspace/manage-membership).
 

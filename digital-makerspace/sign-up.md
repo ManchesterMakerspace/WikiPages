@@ -58,9 +58,15 @@ You arrive on the portal's [Home page](/digital-makerspace/members/home-and-navi
 2. **Come to an open house** to complete your [orientation](/our-facilities/orientation) and receive your key fob. Open house is on Mondays from 6 to 8pm. You can also ask in **#discuss-talk-to-the-board** on Slack.
 3. **Request tool checkouts** for the tools you want to use. See [Request a Tool Checkout](/digital-makerspace/members/request-a-checkout).
 
-Your membership starts when you receive your key fob, not when you pay, so you do not lose any membership time while you wait. If there is a long gap between paying and getting your fob, your billing date and your expiration date will not match. That is normal.
+Your membership starts when you receive your key fob, not when you pay, so you do not lose any membership time while you wait.
 
 ![The Welcome message](/images/signup/welcome.png){width=700px}
+
+### Why your payment date and expiration date can differ
+
+Your payment date is set the day you pay. Your membership term starts the day your key fob is registered, which can be a few days later. Each payment adds a billing period, usually one month, to the end of your term, so your payment will always come a few days before your membership expires. You are not paying extra and you do not lose any time. It just means you are paid up a little ahead.
+
+For example, if you pay on the 1st and your fob is registered on the 11th, your membership runs to the 11th of the next month, and your next payment is taken on the 1st of that month, ten days before it ends. That gap stays the same for as long as you keep your subscription. Each payment still adds a full month to the end of your term.
 
 ## If something goes wrong
 
