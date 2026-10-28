@@ -24,7 +24,7 @@ The settings page has five sections down the left side:
 
 ## See your membership
 
-Open **Subscriptions**. It shows your membership **Status**, **Type** and **Next Payment** date. Your **Home** page and profile show your membership type, status and **Membership Expiration** date.
+Open **Subscriptions**. It shows your membership **Status**, **Type** and **Next Payment** date. Your **Home** page and profile show your membership type, status and **Membership Expiration** date. Your **Next Payment** date is usually a few days before your **Membership Expiration** date. That is normal: see [why the dates differ](/digital-makerspace/sign-up#why-your-payment-date-and-expiration-date-can-differ).
 
 ![Subscriptions](/images/membership/subscriptions.png){width=700px}
 
