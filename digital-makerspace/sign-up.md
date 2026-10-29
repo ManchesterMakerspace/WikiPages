@@ -2,7 +2,7 @@
 title: Sign Up
 description: "How to join the Makerspace: create your account, sign the agreements, choose a membership and pay, then get your orientation and key fob."
 published: true
-date: 2026-10-21T18:00:00.000Z
+date: 2026-10-29T18:00:00.000Z
 tags: portal, signup, members
 editor: markdown
 dateCreated: 2019-09-26T11:57:52.044Z
@@ -22,7 +22,11 @@ The sign-up form has five steps along the top: **Basic Info**, **Agreements**, *
 
 ## Step 1: Basic Info
 
-Fill in the **Create an Account** form: your name, mailing address, an optional phone number, your email address (twice) and a password. We ask for your mailing address because it is verified when you receive your key fob. We do not sell your personal information. Choose **Next**.
+Fill in the **Create an Account** form: your name, mailing address, an optional phone number, your email address (twice) and a password. We ask for your mailing address because it is verified when you receive your key fob. We do not sell your personal information.
+
+The form also asks **How did you hear about us?** Please choose the closest answer. If you took a class, a box asks which one. If a friend or member told you, a box asks who. It does not affect your membership. It helps us see which classes and referrals bring people in.
+
+Choose **Next**.
 
 ![Basic Info](/images/signup/step1-basic-info.png){width=700px}
 
@@ -58,7 +62,7 @@ You arrive on the portal's [Home page](/digital-makerspace/members/home-and-navi
 2. **Come to an open house** to complete your [orientation](/our-facilities/orientation) and receive your key fob. Open house is on Mondays from 6 to 8pm. You can also ask in **#discuss-talk-to-the-board** on Slack.
 3. **Request tool checkouts** for the tools you want to use. See [Request a Tool Checkout](/digital-makerspace/members/request-a-checkout).
 
-Your membership starts when you receive your key fob, not when you pay, so you do not lose any membership time while you wait.
+Your membership starts when you receive your key fob, not when you pay, so you do not lose any membership time while you wait. If you joined through a class, your membership starts when the class is held or when your key fob is issued.
 
 ![The Welcome message](/images/signup/welcome.png){width=700px}
 

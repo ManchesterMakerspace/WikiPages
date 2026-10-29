@@ -2,7 +2,7 @@
 title: Slack Identity Conflicts
 description: "For admins: resolve cases where two Slack accounts share one member's email by choosing which stays linked."
 published: true
-date: 2026-10-23T15:00:00.000Z
+date: 2026-10-29T18:00:00.000Z
 tags: portal, admin, slack
 editor: markdown
 dateCreated: 2026-10-23T15:00:00.000Z
@@ -12,7 +12,7 @@ dateCreated: 2026-10-23T15:00:00.000Z
 
 The portal links each member to a Slack account by email. When a member has two Slack accounts with the same email, only one can be linked. The sync skips the other instead of failing, and it appears here for an admin to decide.
 
-Open **Portal Settings**, choose the **Slack** tab, and choose **Resolve Slack Conflicts**. Only admins can use this page. If there is nothing to resolve it says "No Slack identity conflicts right now."
+Open **Portal Settings**, choose the **Slack** tab, and choose **Resolve Slack Conflicts**. Only admins can use this page. If there is nothing to resolve it says "No Slack identity conflicts right now." If it instead says the live check of Slack could not finish, the page is showing only conflicts saved earlier. Reload in a minute to try again.
 
 Each conflict shows the member's name, which links to their profile, and two Slack accounts:
 

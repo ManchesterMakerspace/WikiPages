@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Why didn't that work? Quick answers for members about logging in, payments, key fobs, invitations, checkouts and rentals.
 published: true
-date: 2026-10-21T16:00:00.000Z
+date: 2026-10-29T18:00:00.000Z
 tags: troubleshooting, members, help
 editor: markdown
 dateCreated: 2020-01-22T13:33:00.704Z
@@ -24,7 +24,9 @@ If a board member or admin created your account, it has no password yet. Use **F
 
 ### The email address is wrong, or I changed it
 
-Ask a board member to correct the email on your membership. Your Slack and Google Drive access follow the email on your membership.
+You can change the email on your profile, or ask a board member to correct it. Please also change your email in Slack at the same time, in Slack's account settings. Slack sends a confirmation to the new address. Tell the board you did it. That keeps the same Slack account instead of creating a new one.
+
+Your Google Drive access moves to the new address automatically. If you do not change your email in Slack, a board member has to send a new Slack invitation to the new address, which deactivates your old Slack account. Accept the new invitation from your email.
 
 ## Your membership and key fob
 
@@ -63,6 +65,8 @@ Your Slack invitation is sent once your membership is active. The Google Drive i
 ### I am not getting emails or Slack messages
 
 Check your spam folder first. Billing and rental messages are always sent. If you unsubscribed from makerspace emails, you will still get these. Messages in Slack only reach you if your Slack account is linked to your membership. Slack accounts are matched to members by email address.
+
+If an email to you could not be delivered, for example because the address has a typo or the mailbox no longer exists, and your Slack account is linked, you get a Slack message saying so. The board is told as well. Update the email address on your profile, or ask a board member to correct it.
 
 ## Tools
 
