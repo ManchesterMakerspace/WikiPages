@@ -46,6 +46,13 @@ Some labels here still say "credit". Read it as volunteer points.
 
 Heroku Scheduler cannot run monthly, so a few jobs run every day and only do their work on the day of the month set here: **Slack Channel Cache refresh day**, **Card Expiration Check day** and **Garbage Collector day** (1 to 31).
 
+**Member Reminder Emails** has two switches, both off until you turn them on:
+
+- **Key fob reminder:** emails (and sends a Slack message to) a member who has paid but has no key fob, asking them to come to an open house to pick it up.
+- **Finish-joining reminder:** does the same for a new signup who has not paid or been issued a fob.
+
+Each has a **days** setting, a whole number from 1 to 14 (**Days after first payment**, **Days after signup**). The first email goes out that many days plus one after the payment or signup, so 7 sends it on day 8. A second reminder follows 14 days later. Nothing is sent more than 30 days after the payment or signup, and nobody with a fob is emailed. The **Member Reminder Emails** job below sends them every day, and **Run Now** runs it straight away. The wording of each email is a Google document on the **Templates** tab.
+
 Below that, each background job shows what it does, when it last ran and whether it **Succeeded** or **Failed**. **Run Now** runs it straight away, whatever the schedule says. Examples are the database backup, the member and invoice reviews, the card expiration check, the reservation canvas rebuild, and the checkout request reminders and digest. A message under the button confirms that the job was queued.
 
 ## Security

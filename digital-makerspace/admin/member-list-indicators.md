@@ -23,9 +23,10 @@ A member whose term is running but who has never been issued a key fob shows **F
 | Term running, no fob issued | **Active · Fob not issued** (amber) |
 | Term ended, no fob issued | **Expired · Fob not issued** |
 | Signed up but no term yet | **N/A** |
+| Non-Member with no term | **Non-Member** |
 | Has a fob | **Active** or **Expired**, as usual |
 
-Issuing the first fob removes **Fob not issued**, and a member who signed up through the portal becomes Active. A **Paid — Not Started** chip beside the status means the member has paid but their term has not started because no fob has been issued. A term staff set by hand, such as a free month from a class, starts when it is set, so check that a fob is issued as well.
+Issuing the first fob removes **Fob not issued**, and a member who signed up through the portal becomes Active. An **Inactive** or **Non-Member** account becomes Active again by itself when a membership payment for it is processed, whether or not they have a fob yet. **Revoked** and **Suspended** accounts never change on their own. A **Paid — Not Started** chip beside the status means the member has paid but their term has not started because no fob has been issued. A term staff set by hand, such as a free month from a class, starts when it is set, so check that a fob is issued as well.
 
 ## Email
 

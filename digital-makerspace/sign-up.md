@@ -42,13 +42,13 @@ Choose the membership you want. The portal shows the options and their prices. C
 
 - The **Household** option covers two adults in the same household.
 - Some memberships are a subscription that renews automatically. Others are a single payment for a period.
-- Choose **None** if you will pay with cash or another way, or want to choose later. You can pick a membership at any time in your account settings.
+- Choose **Other** (*Prepaid with class or voucher*) if you took a class or have a voucher. Choose **Continue**. Your sign-up ends there, with no payment step. Come to an open house with a photo ID to finish joining and get your key fob. You can pick a membership at any time in your account settings.
 
 ## Step 4: Payment
 
 Pick a saved payment method, or add a debit or credit card, PayPal or Venmo. The payment method you use for a subscription becomes your default for later payments until you change it. The screen explains how recurring payments work. Read it, then choose **Next**.
 
-If you chose **None** in step 3, there is no payment step. Choose **Submit** instead.
+If you chose **Other** in step 3, there is no payment or review step. Choosing **Continue** ends the sign-up and takes you to the portal Home page.
 
 ## Step 5: Review
 
@@ -62,7 +62,11 @@ You arrive on the portal's [Home page](/digital-makerspace/members/home-and-navi
 2. **Come to an open house** to complete your [orientation](/our-facilities/orientation) and receive your key fob. Open house is on Mondays from 6 to 8pm. You can also ask in **#discuss-talk-to-the-board** on Slack.
 3. **Request tool checkouts** for the tools you want to use. See [Request a Tool Checkout](/digital-makerspace/members/request-a-checkout).
 
-Your membership starts when you receive your key fob, not when you pay, so you do not lose any membership time while you wait. If you joined through a class, your membership starts when the class is held or when your key fob is issued.
+Your membership starts when you receive your key fob, not when you pay, so you do not lose any membership time while you wait. Any payments you made before then are applied to it. If you joined through a class, your membership starts when the class is held or when your key fob is issued.
+
+### Reminder emails
+
+If you sign up and do not pay or pick up a key fob, the portal emails you a reminder about a week after you sign up and another two weeks after that, and sends a Slack message if you are on Slack. If you have paid but not yet picked up your fob, you get the same kind of reminder starting about a week after your first payment. The reminders stop as soon as you have a fob, and nothing is sent more than 30 days after you sign up or pay. Bring a photo ID to the open house.
 
 ![The Welcome message](/images/signup/welcome.png){width=700px}
 
