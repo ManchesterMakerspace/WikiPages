@@ -24,7 +24,9 @@ The sign-up form has five steps along the top: **Basic Info**, **Agreements**, *
 
 Fill in the **Create an Account** form: your name, mailing address, an optional phone number, your email address (twice) and a password. We ask for your mailing address because it is verified when you receive your key fob. We do not sell your personal information.
 
-The form also asks **How did you hear about us?** Please choose the closest answer. If you took a class, a box asks which one. If a friend or member told you, a box asks who. It does not affect your membership. It helps us see which classes and referrals bring people in.
+The optional **How did you hear about us?** question offers recent and upcoming public events by name and date, plus the existing choices. Open House events are omitted. Choose **Other** to type your answer, **I don’t know / don’t care to say** to decline, or **Referral from Member** to enter the member's name. Detail answers can contain up to 100 characters. You can also leave the question blank; your answer does not affect membership.
+
+When you create an account using a connected sign-in provider, the portal offers the same question once during onboarding. Choose **Continue** or **Skip this question**. Existing accounts are not asked again. If an event becomes unavailable while you are filling in the form, refresh the event choices, choose another answer, or leave the question blank.
 
 Choose **Next**.
 

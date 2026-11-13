@@ -14,6 +14,8 @@ When you sign in to the member portal at members.manchestermakerspace.org, you l
 
 ## The Home page
 
+Resource Managers, Board and Admins also have an **Eventbrite** menu item and an **Eventbrite** tab on member profiles. These show imported event, order and attendance history. Ordinary members cannot view this history, including their own. See [Eventbrite records](/digital-makerspace/resource-managers/eventbrite).
+
 ![The Home page](/images/home/home-member.png){width=700px}
 
 Home has four parts, from top to bottom.
