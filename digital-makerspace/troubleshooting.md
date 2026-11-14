@@ -22,6 +22,10 @@ The optional source question lists public events starting from two calendar mont
 
 Resource Managers, Board and Admins can see an **Email link mismatch** flag in Eventbrite history. An existing attendee link stays with its original member when an email changes; it is not automatically transferred to someone else. Ask an admin to investigate. The browser is read-only, and imported history does not change membership, billing or access.
 
+### Eventbrite imports stopped after a configuration change
+
+Ask an administrator to check for an **Eventbrite webhook disabled** warning. An invalid `EVENTBRITE_WEBHOOK_PATH` disables the listener while allowing Rails and scheduled tasks to start. Supply only a path with a leading `/`, no trailing `/`, and a final segment of at least 32 randomly generated letters, digits, `_` or `-`; do not include the hostname or query parameters. Application prefixes such as `/api` are reserved. Correct the setting, restart Rails, and configure Eventbrite with the full HTTPS URL before sending a dashboard test. Never share the private path or API token in screenshots or support messages. A blank path intentionally disables the listener without a warning.
+
 ### I cannot sign in, or I forgot my password
 
 On the sign-in page choose **Forgot your password?**, enter the email address on your membership, and submit. Check your spam folder, because the email comes from the makerspace. The link in the email works for 24 hours. If it has expired, request a new one. You can also sign in with a connected Google, Apple, GitHub or Microsoft account if you set one up. See [Log In](/digital-makerspace/log-in).
