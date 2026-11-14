@@ -2,10 +2,10 @@
 title: Manchester Makerspace Wiki
 description: Helpful documentation for Manchester Makerspace members
 published: true
-date: 2026-10-21T14:00:00.000Z
+date: 2026-11-14T14:58:51.100Z
 tags: 
 editor: markdown
-dateCreated: 2019-09-26T11:42:46.605Z
+dateCreated: 2026-10-21T02:58:48.613Z
 ---
 
 # Welcome to Manchester Makerspace
@@ -60,6 +60,7 @@ Manchester Makerspace is a member-run workshop. Members have 24/7 access with th
 - [Electronics Station](/workshops/electronics)
 - [Facilities and Operations](/workshops/facilities)
 - [General Use](/workshops/general)
+- [Laser Cutter/Engraver](/workshops/laser)
 - [Metalworking](/workshops/metalworking)
 - [Paint](/workshops/paint)
 - [Podcast](/workshops/podcast)
