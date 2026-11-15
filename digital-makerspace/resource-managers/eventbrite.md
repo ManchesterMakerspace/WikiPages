@@ -25,3 +25,8 @@ Unpublished events, deleted ticket classes and refunded orders remain in history
 Attendees are matched to members by email, ignoring capitalization and surrounding spaces. Matching also runs after new signup, email changes and restoration of an account. An existing link is preserved when an email changes or is reused; **Email link mismatch** asks staff to investigate. The portal does not automatically move the link to a different profile.
 
 This browser is read-only. Ask an administrator to investigate missing imports or conflicts. Do not share names, emails or order details publicly. See [Troubleshooting](/digital-makerspace/troubleshooting) for signup choices and email mismatch guidance.
+
+## Slack announcements
+
+Public events are announced with current ticket totals. Series reminders group dates,
+and order changes refresh saved messages. See [Event announcements](/digital-makerspace/slack/event-announcements).

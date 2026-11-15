@@ -111,3 +111,8 @@ Use the **Retry** button if you see one. If the page is still broken, sign out a
 Some menu items depend on your role. See [The Member Portal Home Page and Menu](/digital-makerspace/members/home-and-navigation).
 
 *Last reviewed: October 2026*
+
+## Eventbrite Slack messages
+
+For missing announcements or **Ticket availability unavailable**, see
+[Event announcement troubleshooting](/digital-makerspace/slack/event-announcements#troubleshooting).

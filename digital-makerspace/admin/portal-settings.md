@@ -83,3 +83,9 @@ Hover over a template to see its placeholders and what to fix when it has a prob
 | A privileged member is stuck on the Security screen | Two-factor is required for their role. They need to finish enrolling. |
 
 *Last reviewed: October 2026*
+
+## Upcoming event announcements
+
+**Upcoming Events Channel** on the Slack tab controls Eventbrite announcements and
+reminders. Blank uses `upcoming-events`. Existing messages stay in their original
+channel. See [Event announcements](/digital-makerspace/slack/event-announcements).
