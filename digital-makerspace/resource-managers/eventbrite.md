@@ -10,6 +10,10 @@ dateCreated: 2026-11-13T07:00:00.000Z
 
 # Eventbrite records
 
+The member-profile **Eventbrite** tab only lists that member's history. Filters narrow
+this history. An unlinked order has no linked member, so it belongs in the global
+**Orders** browser and does not appear in a member's profile history.
+
 Resource Managers, Board and Admins can open **Eventbrite** from the portal menu. The **Events**, **Orders** and **Attendees** tabs show imported records from organizations permitted by the optional organization allowlist. When no allowlist is configured, all imported organizations appear. Ordinary members cannot view these records.
 
 Search by **Name or email**, or filter by organization, event, provider status and member link. **Previous** and **Next** move between pages. **View details** opens a record; event details include ticket classes and order details include attendees. Use **Retry** if loading fails.
