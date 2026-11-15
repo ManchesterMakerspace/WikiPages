@@ -10,7 +10,7 @@ dateCreated: 2026-11-13T07:00:00.000Z
 
 # Eventbrite records
 
-Resource Managers, Board and Admins can open **Eventbrite** from the portal menu. The **Events**, **Orders** and **Attendees** tabs show imported records from the Makerspace's configured Eventbrite organizations. Ordinary members cannot view these records.
+Resource Managers, Board and Admins can open **Eventbrite** from the portal menu. The **Events**, **Orders** and **Attendees** tabs show imported records from organizations permitted by the optional organization allowlist. When no allowlist is configured, all imported organizations appear. Ordinary members cannot view these records.
 
 Search by **Name or email**, or filter by organization, event, provider status and member link. **Previous** and **Next** move between pages. **View details** opens a record; event details include ticket classes and order details include attendees. Use **Retry** if loading fails.
 
