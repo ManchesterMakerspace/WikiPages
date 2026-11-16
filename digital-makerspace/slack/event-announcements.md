@@ -53,3 +53,13 @@ repairing failed or ambiguous sends. Never blindly repost an uncertain delivery.
 Duplicate notifications preserve retry delays and do not create another initial
 announcement. Newly published series may take several minutes to appear while
 Eventbrite makes their dates available.
+
+If the command reports failures, read the per-delivery error details. A record with
+`previously_failed=true` was already stopped; running the same command again does
+not retry it. Correct the reported channel access, token permission or message
+validation issue first. Then use `eventbrite:retry_failed` for known failures and
+rerun the reminder command. That retry task also resets failed webhook work.
+An ambiguous send or a send marker without a message timestamp requires checking
+Slack and reconciling the receipt before retrying, to avoid duplicate posts.
+Rate limits defer automatically until Slack's retry deadline. A Honeybadger API-key
+warning concerns error reporting and does not identify the Slack delivery failure.
