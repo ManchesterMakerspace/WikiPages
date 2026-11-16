@@ -63,3 +63,17 @@ An ambiguous send or a send marker without a message timestamp requires checking
 Slack and reconciling the receipt before retrying, to avoid duplicate posts.
 Rate limits defer automatically until Slack's retry deadline. A Honeybadger API-key
 warning concerns error reporting and does not identify the Slack delivery failure.
+
+The command also shows the configured and effective destination for new posts.
+In test mode, all new messages go to `test_channel`, even if **Upcoming Events
+Channel** is set to `general` or a channel ID. Confirm that the bot can access
+`test_channel`. Real-channel delivery requires `SLACK_ENV=production` on the web
+process, workers and tasks; this changes routing for all Slack integrations.
+Setting only `RAILS_ENV=production` does not change Slack routing. Keep test and
+production receipts separate.
+
+For each new Slack `ChannelNotFound` response, application logs and command stderr
+include `[SlackChannelNotFound]`, the API operation, destination mode and actual
+channel argument (null, a name or an ID). This covers posts, edits and other Slack
+API operations. Existing stopped deliveries produce no new API request; correct
+the cause and follow the known-failure retry procedure above.

@@ -76,7 +76,7 @@ Hover over a template to see its placeholders and what to fix when it has a prob
 
 | Problem | What to check |
 | --- | --- |
-| Messages are not arriving in a Slack channel | The channel name on the **Slack** tab must match the real channel, without the `#`, and the channel must exist. |
+| Messages are not arriving in a Slack channel | Check the channel on the **Slack** tab and the bot's access. In test mode, new messages are redirected to `test_channel` regardless of this setting. An operator can inspect `[SlackChannelNotFound]` in application logs for the API operation, mode and actual channel argument (null, a name or an ID). |
 | A new Slack channel is not found | Choose **Clear and Rebuild Cache** on the **Slack** tab. |
 | A job does not seem to run | Look at its last run and status on the **Jobs** tab. Use **Run Now** and read the message. |
 | A template shows **Permission denied** | Share the Google document with the portal's service account, then choose **Refresh**. |
