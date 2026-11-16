@@ -28,6 +28,17 @@ Ask an administrator to check for an **Eventbrite webhook disabled** warning. An
 
 An **ORGANIZATION_NOT_ALLOWED** delivery failure means the event's organization is outside a configured `EVENTBRITE_ORGANIZATION_IDS` allowlist. An administrator can correct the comma-separated organization IDs, or leave the setting blank to permit any organization the API token can read. Blank/unset is supported; the token remains required. Restart after changing configuration, then run `bundle exec rake eventbrite:retry_failed` in the intended environment to requeue failed deliveries. New backfills discover token-accessible organizations when no allowlist is set; resumed runs retain their original organization list.
 
+### An Eventbrite backfill reports Invalid API path
+
+This failure occurs locally before a request is sent. After deploying the path
+diagnostics update, resume the existing run and inspect its refreshed `last_error`.
+It shows the endpoint's shape with IDs redacted, segment byte lengths, and flags
+such as `leading_slash`, `version_prefix`, `missing_trailing_slash`, `repeated_slash`
+or `whitespace`. For example, `shape=events//orders/` indicates an empty segment.
+Share that diagnostic with the maintainer. Do not share credentials, the private
+receiver path, or a raw request URL. The diagnostic does not relax validation or
+send the rejected request; earlier stored errors only gain detail when retried.
+
 ### An Eventbrite backfill reports ARGUMENTS_ERROR
 
 If the diagnostic says **status - "both" is not a valid choice**, deploy the order
