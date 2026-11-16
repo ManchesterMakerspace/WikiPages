@@ -30,6 +30,12 @@ An **ORGANIZATION_NOT_ALLOWED** delivery failure means the event's organization 
 
 ### An Eventbrite backfill reports ARGUMENTS_ERROR
 
+If the diagnostic says **status - "both" is not a valid choice**, deploy the order
+backfill correction and resume the existing run. It omits the rejected status filter
+and keeps attendee/refund details. Older order cursors restart once because the
+query changed; saved event progress and name filters remain. Check that known
+refunded orders are present before treating the historical import as complete.
+
 An administrator can inspect the failed run in `eventbrite_sync_runs`. After the
 diagnostic update is deployed, resume the same run with
 `RESUME_RUN_ID=<run ID> bundle exec rake eventbrite:backfill_orders` in the intended
