@@ -24,6 +24,19 @@ The settings page has five sections down the left side:
 
 ## See your membership
 
+Your profile also shows **Continuous paid membership: N months**. It counts paid
+membership duration when that time is applied, including prepaid months. A payment
+held until your first key fob counts when the fob starts that membership time.
+Free extensions and earned membership add no paid months. The count resets after
+240 elapsed hours (10 days) past expiration, or immediately if membership is
+revoked. Renewing or extending membership before that deadline preserves it.
+Refunds can reduce the count; only whole months are shown.
+
+**Estimated history** means some older records or continuity are incomplete.
+Ask an administrator to check receipts/history if a count appears too low. Members
+can see their own count; Admins and Board can also see it. Resource Managers do
+not gain access to another member's count through that role.
+
 Open **Subscriptions**. It shows your membership **Status**, **Type** and **Next Payment** date. Your **Home** page and profile show your membership type, status and **Membership Expiration** date. Your **Next Payment** date is usually a few days before your **Membership Expiration** date. That is normal: see [why the dates differ](/digital-makerspace/sign-up#why-your-payment-date-and-expiration-date-can-differ).
 
 ![Subscriptions](/images/membership/subscriptions.png){width=700px}

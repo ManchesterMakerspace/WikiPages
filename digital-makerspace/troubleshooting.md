@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Why didn't that work? Quick answers for members about logging in, payments, key fobs, invitations, checkouts and rentals.
 published: true
-date: 2026-10-29T18:00:00.000Z
+date: 2026-11-17T04:45:00.000Z
 tags: troubleshooting, members, help
 editor: markdown
 dateCreated: 2020-01-22T13:33:00.704Z
@@ -11,6 +11,30 @@ dateCreated: 2020-01-22T13:33:00.704Z
 # Troubleshooting
 
 Something did not happen the way you expected? Find your situation below. If you cannot fix it yourself, ask in **#discuss-talk-to-the-board** on Slack, or come to an open house.
+
+## Continuous paid membership count
+
+### My count is missing or lower than expected
+
+Choose **Retry** if the profile could not load the count. It credits paid months
+when membership time is applied; a payment held until your first key fob counts
+when released. Admin Renew and earned membership add no paid months. Refunds
+reduce the original paid contribution, and only whole months are displayed. A
+240-hour lapse past expiration or a revocation resets the count.
+
+**Estimated history** means older records or continuity are incomplete. Ask an
+administrator to review your receipts and payment history. A Resource Manager
+cannot read another member's count through that role. Do not share private
+receipts or account details in a public channel.
+
+### An administrator cannot save an increase
+
+Enter a greater whole number and a **Correction reason**. If **Paid membership
+changed** appears, review the refreshed current value before saving again. A
+revoked, deadline-expired or missing-expiration account must have its appropriate
+eligibility/expiration restored first; that does not automatically recover the
+old paid streak. **Increase paid membership months** is Admin only. See
+[Paid Membership Months](/digital-makerspace/admin/paid-membership-months).
 
 ## Signing in
 
@@ -47,6 +71,16 @@ Look at **Subscriptions** in the portal menu. If you pay by subscription, the da
 ### My payment failed
 
 You should get an email, and a Slack message if your Slack account is linked. The message includes the reason. Open **Payment Methods** in the portal menu to add a new card or change the one on file, then pay what is due from the **Dues** tab on your profile. A failed subscription payment is also tried again automatically. See [Making Payments](/digital-makerspace/payments).
+
+### “Payment already received. Membership time is held until the first fob is issued.”
+
+Staff have already recorded your cash/check payment. It appears as paid while
+the membership time waits for your first key fob. Come to an open house for
+orientation and a fob, or ask in #discuss-talk-to-the-board. Once it is issued,
+the paid time and paid-membership count are applied. Do not submit another
+payment for that receipt.
+If the fob has been issued and the time still has not appeared, ask an Admin to
+check and retry applying the recorded receipt.
 
 ### I was charged and I think it was a mistake
 
