@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Why didn't that work? Quick answers for members about logging in, payments, key fobs, invitations, checkouts and rentals.
 published: true
-date: 2026-10-29T18:00:00.000Z
+date: 2026-11-17T04:45:00.000Z
 tags: troubleshooting, members, help
 editor: markdown
 dateCreated: 2020-01-22T13:33:00.704Z
@@ -71,6 +71,14 @@ Look at **Subscriptions** in the portal menu. If you pay by subscription, the da
 ### My payment failed
 
 You should get an email, and a Slack message if your Slack account is linked. The message includes the reason. Open **Payment Methods** in the portal menu to add a new card or change the one on file, then pay what is due from the **Dues** tab on your profile. A failed subscription payment is also tried again automatically. See [Making Payments](/digital-makerspace/payments).
+
+### “Payment already received. Membership time is held until the first fob is issued.”
+
+Staff have already recorded your cash/check payment. It appears as paid while
+the membership time waits for your first key fob. Come to an open house for
+orientation and a fob, or ask in #discuss-talk-to-the-board. Once it is issued,
+the paid time and paid-membership count are applied. Do not submit another
+payment for that receipt.
 
 ### I was charged and I think it was a mistake
 
