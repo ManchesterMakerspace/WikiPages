@@ -79,6 +79,8 @@ the membership time waits for your first key fob. Come to an open house for
 orientation and a fob, or ask in #discuss-talk-to-the-board. Once it is issued,
 the paid time and paid-membership count are applied. Do not submit another
 payment for that receipt.
+If the fob has been issued and the time still has not appeared, ask an Admin to
+check and retry applying the recorded receipt.
 
 ### I was charged and I think it was a mistake
 
