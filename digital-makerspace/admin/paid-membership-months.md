@@ -24,7 +24,8 @@ The profile refreshes the count after its status or expiration changes.
 If a confirmed cash/check receipt is recorded but its membership time was not
 applied because accounting failed, retry settling that same invoice after
 checking its receipt and fob status. The retry applies the recorded payment;
-do not collect a second one. A new payment attempt after a processor settlement
+for a recurring invoice it also creates the next billing cycle once. Do not
+collect a second payment. A new payment attempt after a processor settlement
 decline is tracked separately from the reversed charge.
 
 1. Open the member's profile and choose **Increase paid membership months**.
