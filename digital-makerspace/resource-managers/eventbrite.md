@@ -2,7 +2,7 @@
 title: Eventbrite records
 description: Viewing imported events, orders and attendance in the member portal.
 published: true
-date: 2026-11-13T07:00:00.000Z
+date: 2026-11-16T00:00:00.000Z
 tags: portal, resource-managers, eventbrite
 editor: markdown
 dateCreated: 2026-11-13T07:00:00.000Z
@@ -21,6 +21,10 @@ Search by **Name or email**, or filter by organization, event, provider status a
 Records show the event and date, provider status, refund or invalidation state, and links to member profiles. A member profile also has an **Eventbrite** tab with that member's orders and attendees. An order can link to several members through its attendees; its buyer alone is not treated as an attendee.
 
 Unpublished events, deleted ticket classes and refunded orders remain in history. Any refund, including a partial refund, marks the order invalid permanently. These flags do not change membership, billing or access privileges.
+
+Historical refund dates come from Eventbrite's refund timestamp or its record
+change timestamp. When neither is available, the date remains unknown; the time
+of import is not used as a refund date. Refund status and invalidation still apply.
 
 Attendees are matched to members by email, ignoring capitalization and surrounding spaces. Matching also runs after new signup, email changes and restoration of an account. An existing link is preserved when an email changes or is reused; **Email link mismatch** asks staff to investigate. The portal does not automatically move the link to a different profile.
 

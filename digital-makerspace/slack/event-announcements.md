@@ -2,7 +2,7 @@
 title: Event announcements
 description: Eventbrite announcements, reminders and ticket totals in Slack.
 published: true
-date: 2026-11-15T00:00:00.000Z
+date: 2026-11-16T00:00:00.000Z
 tags: slack, eventbrite
 editor: markdown
 dateCreated: 2026-11-15T00:00:00.000Z
@@ -13,6 +13,11 @@ dateCreated: 2026-11-15T00:00:00.000Z
 Public listed Eventbrite events appear in #upcoming-events, unless an administrator
 has chosen another **Upcoming Events Channel** in Portal Settings → Slack.
 The message shows the date, location, ticket totals and registration link.
+If no admission ticket class is on sale and a future opening is scheduled, the
+message adds **Tickets go on sale** with the earliest opening date and time in
+the event's timezone.
+Member registration links can apply the organizer's configured member discount;
+check Eventbrite's checkout for the final price and eligibility.
 Free admission tickets count too. Ticket totals are snapshots; Eventbrite remains
 the source for current registration availability.
 
@@ -53,6 +58,16 @@ repairing failed or ambiguous sends. Never blindly repost an uncertain delivery.
 Duplicate notifications preserve retry delays and do not create another initial
 announcement. Newly published series may take several minutes to appear while
 Eventbrite makes their dates available.
+
+Set optional `EVENTBRITE_MEMBER_DISCOUNT_CODE` on the Rails web, worker and task
+processes to include the `discount` parameter in Slack registration links for
+events whose ticket-class name or description contains `member`, regardless of
+capitalization. This includes future-sale tickets. Other event links stay unchanged.
+The code must exist in Eventbrite already, and is shared with Slack readers. Blank
+or unset disables this behavior. Existing URL parameters and fragments are retained.
+Series date links qualify separately; the all-dates link qualifies when at least
+one represented public date includes a member ticket class. Saved messages receive
+updated sale notices and links after the next successful inventory refresh.
 
 If the command reports failures, read the per-delivery error details. A record with
 `previously_failed=true` was already stopped; running the same command again does
