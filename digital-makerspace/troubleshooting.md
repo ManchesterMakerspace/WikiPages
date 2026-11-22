@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Why didn't that work? Quick answers for members about logging in, payments, key fobs, invitations, checkouts and rentals.
 published: true
-date: 2026-10-29T18:00:00.000Z
+date: 2026-11-22T00:00:00.000Z
 tags: troubleshooting, members, help
 editor: markdown
 dateCreated: 2020-01-22T13:33:00.704Z
@@ -29,6 +29,15 @@ Ask an administrator to check for an **Eventbrite webhook disabled** warning. An
 An **ORGANIZATION_NOT_ALLOWED** delivery failure means the event's organization is outside a configured `EVENTBRITE_ORGANIZATION_IDS` allowlist. An administrator can correct the comma-separated organization IDs, or leave the setting blank to permit any organization the API token can read. Blank/unset is supported; the token remains required. Restart after changing configuration, then run `bundle exec rake eventbrite:retry_failed` in the intended environment to requeue failed deliveries. New backfills discover token-accessible organizations when no allowlist is set; resumed runs retain their original organization list.
 
 ### An Eventbrite backfill reports Invalid API path
+
+If an order backfill reports `shape=events//` and `repeated_slash`, an order in
+the event-scoped listing has no event ID. Deploy the parent-event fallback fix,
+then resume the existing run with
+`RESUME_RUN_ID=<run ID> bundle exec rake eventbrite:backfill_orders` in the same
+environment. It uses the listing's known event for these orders and their
+attendees. Completed pages are retained; replaying the failed page does not
+duplicate records. An explicit different event ID still resolves the moved
+order's destination. Do not delete imported records or reset the run to recover.
 
 This failure occurs locally before a request is sent. After deploying the path
 diagnostics update, resume the existing run and inspect its refreshed `last_error`.
