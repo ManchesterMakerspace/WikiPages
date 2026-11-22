@@ -26,14 +26,15 @@ The **Bounty Tasks** tab lists each task with its number, title, description, po
 
 1. Choose **Create Task**.
 2. Fill in the **Title** and **Description**, both required.
-3. Set the **Credit Value**, which is the points the task is worth. Task creation allows 0.5 to 2 in steps of 0.5.
+3. Set the **Credit Value**, which is the points the task is worth. Enter a positive value. The form shows the current maximum for new tasks; if you exceed it, the message names the maximum and you can correct the value without re-entering the other fields.
 4. Choose the **Task Type**:
    - **Standard (one-time)**: one member does it once.
    - **Reusable (any member once)**: each member can do it once.
    - **Repeatable (any member, unlimited)**: members can do it as often as they like.
    - **Recurring (repeatable with cooldown)**: it can be done again after a number of days. You enter the **Recurrence Interval (days)**.
-5. Optionally choose a **Shop**, and **Prerequisite tool checkouts** that a member needs before they can claim it.
-6. Choose **Submit**.
+5. For a reusable, repeatable or recurring task, optionally set **Day of week**. **Any day** leaves it unrestricted. Choosing a weekday makes new claims available only on that weekday, using Eastern time. Recurring cooldowns and prerequisite checkouts still apply.
+6. Optionally choose a **Shop**, and **Prerequisite tool checkouts** that a member needs before they can claim it.
+7. Choose **Submit**.
 
 ### Task statuses
 
@@ -50,7 +51,7 @@ The **Bounty Tasks** tab lists each task with its number, title, description, po
 
 Tick a task to see what you can do:
 
-- **Edit** changes the title, description, recurrence interval and points value. Admin and board edits to the value have no upper limit, and every edit is recorded in the audit log.
+- **Edit** changes the title, description, recurrence interval, day of week and points value. Admin and board edits to the value have no upper limit, and every edit is recorded in the audit log. Changing the weekday affects new claims; members can still finish existing claims on another day.
 - **Cancel** withdraws a task that is still open.
 - **Delete** removes a completed task.
 
@@ -73,6 +74,8 @@ The list shows each event with its points, attendee count and status. **Filter b
 
 Members join an event from their Home page with **Join Event**.
 
+Events require a positive credit value and have no upper credit limit. The maximum shown for creating a bounty task does not apply to events.
+
 ## The Credits tab
 
 This tab is the log of every award. **Filter by Status** shows all, pending, approved, rejected or reversed entries. Each entry shows the member, what it was for, the points and the status: **Approved**, **Pending**, **Rejected** or **Reversed**.
@@ -88,9 +91,10 @@ Some entries are added automatically. For example, an approver's work on a tool 
 
 | Problem | What to check |
 | --- | --- |
-| A member cannot claim a task | They may not meet the prerequisite checkouts, or they reported the task themselves. |
-| A task is not on the Home page | It may be claimed, cancelled or outside the member's shop. |
+| A member cannot claim a task | Check its **Day of week**, recurring cooldown and prerequisite checkouts. A weekday restriction also applies to admins, board members and Resource Managers. |
+| A task is not on the Home page | It may be claimed, cancelled, ineligible for the member or scheduled for another weekday. Home shows at most five matching weekday tasks, then five other opportunities. |
+| Credit value exceeds the maximum | Reduce the new task's value to the maximum named in the message. An admin can review the configured limit if it needs changing. Your other form entries are kept. |
 | Points are missing | The task may still be **Pending Verification**, or the event may not be closed yet. |
 | Points were awarded by mistake | Use **Reverse Credit** and give a reason. |
 
-*Last reviewed: October 2026*
+*Last reviewed: November 2026*

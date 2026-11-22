@@ -26,6 +26,8 @@ Bounties are tasks the makerspace wants done. They are displayed on the TVs arou
 
 Some tasks can only be claimed once, some can be repeated, and some come back on a schedule. The task description tells you which.
 
+Reusable, repeatable and recurring tasks can also be assigned a **Day of week**. They appear among available tasks and accept new claims only on that weekday, using Eastern time. Prerequisite checkouts and recurring cooldowns still apply. After claiming a task, you can find it under **My Active Claims** and mark it complete on another day.
+
 See [Bounties](/volunteer-credit/open-projects) for the kinds of jobs that come up.
 
 ## Monthly volunteer and cleanup days

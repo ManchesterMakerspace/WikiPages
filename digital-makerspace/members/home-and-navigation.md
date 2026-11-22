@@ -32,6 +32,8 @@ Under it you may see a note asking you to accept your Slack invite (check your e
 
 Tasks and events you can take part in to help run the makerspace. Volunteer activities earn points, and each opportunity shows what it is worth (the portal labels this "volunteer credit"). Use **Claim Task** to take a task, or **Join Event** to sign up for an event. When you finish a task, mark it complete in the **Volunteer** tab on your profile. Points are added after the work is reviewed.
 
+The list starts with up to five eligible, unclaimed bounty tasks assigned to today's weekday, using Eastern time. Up to five other eligible opportunities follow in the same list. Each group runs from highest to lowest credit value. Tasks scheduled for another weekday, tasks you cannot claim and events you have already joined are left out. Existing claims remain under **My Active Claims** on your profile, including on other weekdays.
+
 ### Available safety checkouts
 
 The tools you can ask to be checked out on. Each shows the tool and its shop, any note from the shop's Resource Manager, and a **Request Safety Checkout** button. See [Request a Tool Checkout](/digital-makerspace/members/request-a-checkout).

@@ -82,6 +82,14 @@ You need an active membership and no past-due invoices. See [Rent a Storage Spac
 
 ## Volunteering
 
+### A new bounty task's credit value exceeds the maximum
+
+The message names the maximum allowed for a new task. Lower **Credit Value** to that value or less, then choose **Submit** again. Your other entries stay in the form. Ask an admin to review the configured limit if necessary. Existing task edits and volunteer events have no upper credit limit; all credit values must be positive.
+
+### A weekday task is missing or cannot be claimed
+
+Reusable, repeatable and recurring tasks with a **Day of week** appear and accept new claims only on that weekday, using Eastern time. Recurring cooldowns and prerequisite checkouts still apply. Home shows at most five matching weekday tasks and five other opportunities. If you already claimed the task, open **My Profile**, then **Volunteer** and **My Active Claims** to finish it, even on another weekday.
+
 ### My volunteer work does not show yet
 
 Points are added after the work is reviewed. If you completed a task, mark it complete in the **Volunteer** tab on your profile, then ask in #discuss-talk-to-the-board if it has not been recognized after a few days.
