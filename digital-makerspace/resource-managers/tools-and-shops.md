@@ -80,6 +80,10 @@ Tick the shop and click **Edit**. The box lists:
 | **Reservable** | Whether the shop can be reserved. |
 | **Slack Channel** | The shop's channel, for example `#shop-woodworking`. **This is how `/checkout` and `/reserve` in Slack know which shop a command is for.** Set it, or the Slack commands and the printed sign will have no channel. |
 
+**Announce empty reservation agendas in Slack** is off by default. Turn it on to invite members to book this shop or its tools when the relevant channel's entire day agenda is empty. It is available even when **Reservable** for the whole shop is off. Assigned RMs may change it for their shops; admins and board members may change it for every shop. Save with **Save Shop**. Booked-channel summaries still appear when this option is off.
+
+Invitations do not mix with reservation entries. Marking a tool hidden or out of service removes its reserving invitation from the next new or updated summary, while keeping existing reservation rows visible. Overnight bookings, blackouts, and hidden/out-of-service resources prevent a misleading free-agenda invitation. Deleting the last shop represented in today's summary removes the Slack message; shared summaries keep their surviving shops. Deleting or moving a tool, or changing its Users Channel, removes an abandoned channel's summary while shared channels keep their remaining resources. A moved tool's earlier bookings stay with their original reservation shop. See [Manage Reservations](/digital-makerspace/resource-managers/reservations).
+
 ![Edit Shop dialog](/images/checkouts/rm-edit-shop-dialog.png){width=700px}
 
 Adding a new shop, deleting one, and assigning its Resource Managers are done by admins and board members.

@@ -78,6 +78,18 @@ Fill in a **Title**, the **Shop**, how it **Repeats** (for example every week), 
 - Reservation events are shown on the shop's Google Calendar, in the shop's color.
 - If the canvases look out of date, an admin can rebuild them: open **Portal Settings**, choose **Jobs**, find **Reservation Canvas Rebuild**, and choose **Run Now**.
 
+## Daily Slack summaries and empty invitations
+
+Each day from 7 AM Eastern, configured channels receive one dated summary of approved, pending and unpaid reservations beginning that day. Tool reservations use the tool's **Users Channel**, falling back to the shop channel only when undefined. Whole-shop bookings go to the shop and all its configured tool-users channels. Shared channels do not repeat the same booking. Edits and cancellations update the original message.
+
+Every message includes **Live today agenda** links and **Reserve [shop]** buttons. Tool-users channel members can read the linked shop canvas. The link follows the rolling live agenda, even from an older message. The agenda includes overnight carryovers and refreshes when those bookings change, even if the summary stays unchanged or the shop only has a tool Users Channel. The Reserve button checks the clicking member's linked account and eligibility.
+
+In **Edit Shop**, **Announce empty reservation agendas in Slack** controls free-agenda invitations for that shop and its tools. It starts off and is separate from whole-shop **Reservable**. Assigned RMs, admins and board members can change it. Invitations appear only in empty channels, counting bookings that carry over from yesterday, blackouts and availability. Switching it off removes invitation text from today's existing message. Marking a tool hidden or out of service also removes its invitation on an update, while retaining any existing booked rows for review. A previously posted summary that becomes empty can remain as **No reservations to announce for [date]**.
+
+Before posting today's new summary, the portal tries to remove yesterday's post in the same channel if its last message was an empty invitation or neutral empty summary. Summaries that listed reservations stay in Slack. A failed cleanup does not prevent today's message.
+
+An admin can use **Portal Settings → Jobs → Daily Reservation Announcements → Run Now** to recover a summary after 7 AM. A failure can mean Slack could not post, edit, or share its canvas. Ask an admin to check the job status and channel configuration; do not repeatedly delete summaries.
+
 ## Troubleshooting
 
 | Problem | What to check |

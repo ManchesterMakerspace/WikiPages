@@ -74,6 +74,24 @@ If an email to you could not be delivered, for example because the address has a
 
 See [Troubleshooting: Tool Checkouts](/digital-makerspace/troubleshooting/checkouts). It explains every message you can see and what to do.
 
+## Reservation announcements
+
+### The Reserve button in a Slack summary will not open a form
+
+You need a linked, active, unexpired Member Portal account. Read the private **Reservation unavailable** message, sign in to the portal and check your membership. The shop may be hidden, out of service, or have no resources you can reserve. Ask its Resource Manager or use **Reservations** in the portal. The button does not bypass required tool checkouts.
+
+### An empty-shop invitation is missing or changed
+
+The shop's **Announce empty reservation agendas in Slack** option starts off. Ask its Resource Manager about enabling it. Invitations appear only when the channel's whole day is empty; bookings from yesterday, blackouts and unavailable resources can prevent them. A booking or setting change can replace an invitation in the same message. **No reservations to announce for [date]** is a neutral update, not a promise that every resource is available. If a linked live agenda still shows an edited or cancelled overnight booking, an admin can use **Portal Settings → Jobs → Daily Reservation Announcements → Run Now** after 7 AM Eastern to refresh it. This also works for shops with only a tool Users Channel; the summary itself may stay unchanged.
+
+### Yesterday's empty message disappeared
+
+The portal tries to remove yesterday's empty invitation or neutral empty summary before posting today's message in that channel. Nonempty summaries stay. Cleanup can fail without stopping today's post; an admin can check the job logs.
+
+### A summary or its agenda link looks stale
+
+Check the date printed in the summary. **Live today agenda** links always open the current rolling canvas, including from yesterday's message. Deleting the last shop represented in today's summary removes the message instead of leaving a reservation button for a deleted shop; Slack deletion failures are retried. Deleting or moving a tool, or changing its Users Channel, refreshes the old and new destinations; abandoned summaries are removed and shared summaries retain their other resources. Failed channel lookups preserve the existing message until Slack can resolve the configuration. Ask an admin to check **Portal Settings → Jobs → Daily Reservation Announcements** and use **Run Now** after 7 AM Eastern. Slack channel or canvas-access problems may need the admin's attention.
+
 ## Storage rentals
 
 ### I cannot rent a space

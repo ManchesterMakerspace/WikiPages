@@ -87,6 +87,16 @@ Slack sends a reminder before an approved booking. If it starts 6 to 47 hours aw
 
 Some shops show "Today's reservations" and "Tomorrow's reservations" in their Slack channel so you can see who has the shop. Ask the Resource Manager if you want that for your shop.
 
+## Daily reservation messages in Slack
+
+From 7 AM Eastern, the portal posts one dated summary per shop/tool channel for reservations beginning that day. Approved, pending and unpaid bookings are labeled. Tool bookings go to the tool's Users Channel, or the shop channel when none is set. Whole-shop bookings also appear in the shop's tool-users channels. The same message changes when bookings are edited or cancelled during the day.
+
+Choose **Reserve [shop]** to open the reservation form in Slack. You still need a linked active membership and the normal checkouts. The result comes to you privately by DM. **Live today agenda** opens the shop's current canvas; an old message links to the live agenda, not an archived date. The agenda also includes bookings carried over from yesterday. Their edits and cancellations refresh the agenda even when today's summary text stays the same.
+
+Some channels show **Shop is wide open, book your time now!**, or name free tools, when the Resource Manager has enabled empty-agenda invitations. They appear only when that channel's whole-day agenda is empty. An empty invitation is not permission to skip checkouts, fees or booking rules. Marking a tool hidden or out of service removes its booking invitation on the next summary update; existing bookings remain visible.
+
+Before posting today's new summary, the portal tries to remove yesterday's post in the same channel if its last message was an empty invitation or neutral empty summary. Summaries that listed reservations stay in Slack. A failed cleanup does not prevent today's message.
+
 ## If something goes wrong
 
 | What you see | What to do |

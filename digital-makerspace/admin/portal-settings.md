@@ -55,6 +55,14 @@ Each has a **days** setting, a whole number from 1 to 14 (**Days after first pay
 
 Below that, each background job shows what it does, when it last ran and whether it **Succeeded** or **Failed**. **Run Now** runs it straight away, whatever the schedule says. Examples are the database backup, the member and invoice reviews, the card expiration check, the reservation canvas rebuild, and the checkout request reminders and digest. A message under the button confirms that the job was queued.
 
+### Daily Reservation Announcements
+
+**Daily Reservation Announcements** keeps one dated reservation summary per destination channel, starting at 7 AM Eastern. Its **Run Now** action follows the same time gate. Midday changes edit the existing message; the external scheduler also checks every ten minutes. The status reports failure if a channel or required agenda canvas could not be updated, while other channels are still attempted.
+
+Empty-agenda invitations are off by default and are controlled separately in each shop's **Edit Shop** dialog with **Announce empty reservation agendas in Slack**. Admins/board can edit every shop and assigned RMs can edit their own. Normal booked summaries do not depend on that option.
+
+Before posting today's new summary, the portal tries to remove yesterday's post in the same channel if its last message was an empty invitation or neutral empty summary. Summaries that listed reservations stay in Slack. A failed cleanup does not prevent today's message.
+
 ## Security
 
 - **Two-Factor Authentication Enforcement:** switches to require two-factor sign-in for admins, board members and Resource Managers. When required, a privileged member who has not enrolled is sent to their Security settings after login and cannot use the portal until they enroll. All members may turn on two-factor themselves. See [Log In](/digital-makerspace/log-in).
