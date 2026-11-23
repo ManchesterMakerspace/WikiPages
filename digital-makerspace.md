@@ -37,6 +37,8 @@ How-to articles for the member portal at members.manchestermakerspace.org, organ
 
 ## For approvers
 
+Resource Managers, Board and Admins: [Eventbrite records](/digital-makerspace/resource-managers/eventbrite).
+
 - [Check Out a Member on a Tool](/digital-makerspace/approvers/check-out-a-member)
 - [Checkout Requests, Reminders and Notifications](/digital-makerspace/approvers/requests-and-notifications)
 - [Revoke a Checkout and Review the Checkout Roster](/digital-makerspace/approvers/revoke-a-checkout)

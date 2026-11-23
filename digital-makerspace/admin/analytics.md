@@ -24,6 +24,8 @@ Across the top are six counts: **Active Members**, **New This Month**, **Lost Th
 
 ## Volunteer
 
+The year filter and monthly groups use UTC. An entry at midnight UTC on January 1 belongs to the new year, even if it is still December 31 in New Hampshire. **Pending** counts remain global rather than being limited to the selected year.
+
 Choose a **Year** or **All time**. You see how many volunteer entries and how many points were issued, and how many are still **Pending**, then charts of points issued per month, tasks completed per month, and **Top Volunteers**. The chart labels still say "credits". Read it as volunteer points. Top Volunteers shows member names, so share screenshots carefully.
 
 ## Space Usage

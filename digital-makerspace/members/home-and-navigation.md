@@ -14,6 +14,8 @@ When you sign in to the member portal at members.manchestermakerspace.org, you l
 
 ## The Home page
 
+Resource Managers, Board and Admins also have an **Eventbrite** menu item and an **Eventbrite** tab on member profiles. These show imported event, order and attendance history. Ordinary members cannot view this history, including their own. See [Eventbrite records](/digital-makerspace/resource-managers/eventbrite).
+
 ![The Home page](/images/home/home-member.png){width=700px}
 
 Home has four parts, from top to bottom.
@@ -72,6 +74,19 @@ Some items may not appear, depending on how the makerspace has set up the portal
 ## Staff menus
 
 Board members, Resource Managers and admins see more menu items than members do, depending on their role. Those are covered in the admin and resource manager sections of this wiki. If you expect a menu item and do not see it, ask a board member to check your role.
+
+The bottom of the menu, below Logout and a separator, groups these items in order:
+**Analytics**, **Audit Log**, **Billing**, **Eventbrite**, **Portal Settings**.
+Only items you can access are shown:
+
+- **Analytics** and **Audit Log** are available to Board members and admins.
+- **Billing** is available to Board members and admins when billing is enabled.
+- **Eventbrite** is available to Resource Managers, Board members and admins.
+- **Portal Settings** is available only to admins.
+
+If none of these items is available to you, the group and its separator are hidden.
+Use the arrow keys to move through the open menu, Enter to select an item, or
+Escape to close it and return focus to the menu button.
 
 ## If something looks wrong
 

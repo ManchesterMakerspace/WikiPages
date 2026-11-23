@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Why didn't that work? Quick answers for members about logging in, payments, key fobs, invitations, checkouts and rentals.
 published: true
-date: 2026-10-29T18:00:00.000Z
+date: 2026-11-22T00:00:00.000Z
 tags: troubleshooting, members, help
 editor: markdown
 dateCreated: 2020-01-22T13:33:00.704Z
@@ -13,6 +13,57 @@ dateCreated: 2020-01-22T13:33:00.704Z
 Something did not happen the way you expected? Find your situation below. If you cannot fix it yourself, ask in **#discuss-talk-to-the-board** on Slack, or come to an open house.
 
 ## Signing in
+
+### An event is missing from the signup question
+
+The optional source question lists public events starting from two calendar months ago through one month ahead. Open House events and unavailable events are omitted. Use **Retry** if choices could not load, or **Refresh event choices** if your selected event became unavailable. You can choose another answer, **Other**, **I don’t know / don’t care to say**, or leave the question blank. A saved answer keeps its event name and date even after the event leaves the list.
+
+### Imported event history has a different email
+
+Resource Managers, Board and Admins can see an **Email link mismatch** flag in Eventbrite history. An existing attendee link stays with its original member when an email changes; it is not automatically transferred to someone else. Ask an admin to investigate. The browser is read-only, and imported history does not change membership, billing or access.
+
+### Eventbrite imports stopped after a configuration change
+
+Ask an administrator to check for an **Eventbrite webhook disabled** warning. An invalid `EVENTBRITE_WEBHOOK_PATH` disables the listener while allowing Rails and scheduled tasks to start. Supply only a path with a leading `/`, no trailing `/`, and a final segment of at least 32 randomly generated letters, digits, `_` or `-`; do not include the hostname or query parameters. Application prefixes such as `/api` are reserved. Correct the setting, restart Rails, and configure Eventbrite with the full HTTPS URL before sending a dashboard test. Never share the private path or API token in screenshots or support messages. A blank path intentionally disables the listener without a warning.
+
+An **ORGANIZATION_NOT_ALLOWED** delivery failure means the event's organization is outside a configured `EVENTBRITE_ORGANIZATION_IDS` allowlist. An administrator can correct the comma-separated organization IDs, or leave the setting blank to permit any organization the API token can read. Blank/unset is supported; the token remains required. Restart after changing configuration, then run `bundle exec rake eventbrite:retry_failed` in the intended environment to requeue failed deliveries. New backfills discover token-accessible organizations when no allowlist is set; resumed runs retain their original organization list.
+
+### An Eventbrite backfill reports Invalid API path
+
+If an order backfill reports `shape=events//` and `repeated_slash`, an order in
+the event-scoped listing has no event ID. Deploy the parent-event fallback fix,
+then resume the existing run with
+`RESUME_RUN_ID=<run ID> bundle exec rake eventbrite:backfill_orders` in the same
+environment. It uses the listing's known event for these orders and their
+attendees. Completed pages are retained; replaying the failed page does not
+duplicate records. An explicit different event ID still resolves the moved
+order's destination. Do not delete imported records or reset the run to recover.
+
+This failure occurs locally before a request is sent. After deploying the path
+diagnostics update, resume the existing run and inspect its refreshed `last_error`.
+It shows the endpoint's shape with IDs redacted, segment byte lengths, and flags
+such as `leading_slash`, `version_prefix`, `missing_trailing_slash`, `repeated_slash`
+or `whitespace`. For example, `shape=events//orders/` indicates an empty segment.
+Share that diagnostic with the maintainer. Do not share credentials, the private
+receiver path, or a raw request URL. The diagnostic does not relax validation or
+send the rejected request; earlier stored errors only gain detail when retried.
+
+### An Eventbrite backfill reports ARGUMENTS_ERROR
+
+If the diagnostic says **status - "both" is not a valid choice**, deploy the order
+backfill correction and resume the existing run. It omits the rejected status filter
+and keeps attendee/refund details. Older order cursors restart once because the
+query changed; saved event progress and name filters remain. Check that known
+refunded orders are present before treating the historical import as complete.
+
+An administrator can inspect the failed run in `eventbrite_sync_runs`. After the
+diagnostic update is deployed, resume the same run with
+`RESUME_RUN_ID=<run ID> bundle exec rake eventbrite:backfill_orders` in the intended
+environment. The refreshed `last_error` includes a redacted, single-line provider
+description, limited to 512 characters. Sensitive details may be omitted. Share
+only that diagnostic, never the API token, private receiver URL, or full provider
+response. Capturing the description helps identify the rejected argument; it does
+not fix the rejection. Historical errors gain details only when retried.
 
 ### I cannot sign in, or I forgot my password
 
@@ -97,3 +148,8 @@ Use the **Retry** button if you see one. If the page is still broken, sign out a
 Some menu items depend on your role. See [The Member Portal Home Page and Menu](/digital-makerspace/members/home-and-navigation).
 
 *Last reviewed: October 2026*
+
+## Eventbrite Slack messages
+
+For missing announcements or **Ticket availability unavailable**, see
+[Event announcement troubleshooting](/digital-makerspace/slack/event-announcements#troubleshooting).
